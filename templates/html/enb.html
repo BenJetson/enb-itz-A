@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>[% title %]</title>
+        <link rel="stylesheet" href="http://rawgit.com/BenJetson/8eea4571b49432b4edcba7f819c23f02/raw/40873cd6777e12f5fc6e8b1348de6cf1a23bba86/zim.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            var date = ""
+            $(document).ready(function() {
+                $('span.pgTitle').each(function() {
+                    try {
+                        $(this).html(new Date($(this).html()).toLocaleString("en-US", {weekday: "long", day: "numeric", month: "short", year: "numeric"}));
+                    } catch {
+                        $(this).closest('page').delete();
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <!-- Wiki content -->
+
+        <div class='pages'>
+        <!--[% FOR page IN pages %]-->
+            <div class="page">
+            <div class='heading'>
+            <h1><span class="pgTitle">[% page.title %]</span> <a name='[% anchor(page) %]'></a></h1>
+            </div>
+
+            <div class='content'>
+            [% page.body %]
+            </div>
+
+            <br />
+
+            <div class='page-footer'>
+            <!--[% FOR link IN page.backlinks %]-->
+                [% IF loop.first %]<b>Backlinks:</b>[% END %]
+
+                <a href='[% uri(link) %]'>[% link.name %]</a>
+
+                [% IF loop.last %]<br /><br />[% END %]
+            <!--[% END %]-->
+
+            <!--[% FOR file IN page.attachments %]-->
+                [% IF loop.first %]
+                    <b>Attachments:</b>
+                    <table>
+                [% END %]
+
+                    <tr><td><a href='[% uri(file) %]'>[% file.basename %]</a></td><td>&nbsp;</td><td>[% file.size %]</td></tr>
+
+                [% IF loop.last %]
+                    </table>
+                [% END %]
+            <!--[% END %]-->
+            </div>
+
+            <div class="page-break">&nbsp;</div>
+            </div>
+        <!--[% END %]-->
+        </div>
+    </body>
+</html>
