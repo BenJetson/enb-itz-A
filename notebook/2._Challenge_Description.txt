@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-05-02T20:55:59-04:00
+
+====== 2. Challenge Description ======
+Created Tuesday 02 May 2017
+
+TODO: finish the game description
+
+===== The Field =====
+The In The Zone field looks very different from previous seasons. Still, they have some similarities. The Vex Robotics 2017-2018 game, named In The Zone, consists of many cones that a robot must place on top of either mobile goals that are placed into scoring zones or on top of scoring posts. The object of the game is to have higher stacks of cones to accumulate more points than the opposing alliance. An autonomous period begins at the start of each match, where robots
+
+{{./pasted_image.png?width=700}}
+
+
+
+

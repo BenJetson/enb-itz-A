@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-05-02T20:54:49-04:00
+
+====== 1. Introduction ======
+Created Tuesday 02 May 2017
+
+Welcome to the wiki. This is a page that describes it all and says everything. 
