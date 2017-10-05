@@ -7,8 +7,11 @@ AUTHOR: @no_author
 
 ===== Summary =====
 
-* Make a bullet  list of actions taken here
+
 
 ===== Journal =====
 
 Write a detailed description in paragraph form here. **Include pictures**!!
+
+TODO: Journal 10/5
+PHOTO: Journal 10/5
