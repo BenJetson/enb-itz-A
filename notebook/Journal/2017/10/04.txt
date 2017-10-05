@@ -3,15 +3,15 @@ Wiki-Format: zim 0.4
 Creation-Date: 2017-10-04T20:36:03-04:00
 
 ====== Wednesday, Oct 04, 2017 ======
-AUTHOR: @no_author
+AUTHOR: @cdunla6940, @iwaldr0912 
 
 ===== Summary =====
 
 * We started to re-make the gear box for the claw
-* We started to build the left pillar of our robot. This'll connet to our arm which'll cone
+* We started to build the left pillar of our robot. This'll connet to our arm which'll connect to our claw.
 
 ===== Journal =====
 
-Write a detailed description in paragraph form here. **Include pictures**!!
+For October 4th we started to realize that we need to finally connect our claw to our gear box. To do this we had to take apart our gear box and re-assemble it. We took the shaftcollars off and took the c-channel off too. We then moved the gears in different spots so the claw would be able to fit or attach to the gear box. We didn't finish this assignment today, but tommorrow we should have it done. While have of us worked on the gear box, the other half worked on making an arm. We started to make a pillar at the back of our robot 
 
 TODO: entry missing for 10/04
