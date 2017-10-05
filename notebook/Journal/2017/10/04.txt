@@ -5,3 +5,8 @@ Creation-Date: 2017-10-04T09:42:51-04:00
 ====== Wednesday, Oct 04, 2017 ======
 
 Today, the team worked on X and did X. We did this because the X mechanism needed X modifications. Yay.
+
+* asdfasdfasdf
+
+===== blah =====
+wah **wah**

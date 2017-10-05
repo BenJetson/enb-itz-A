@@ -1,6 +1,14 @@
 [% IF calendar_plugin.page_type == 'day' -%]
 ======= [% strftime("%A, %b %d, %Y", calendar_plugin.date) %] =======
+AUTHOR: @author_UNKNOWN
 
+===== Summary =====
+
+* Make a bullet list of actions taken here
+
+===== Journal =====
+
+Write a detailed description in paragraph form here. **Include pictures**!!
 
 [%- ELSIF calendar_plugin.page_type == 'week' -%]
 ======= [% strfcal("Week %W %Y", calendar_plugin.date) %] =======

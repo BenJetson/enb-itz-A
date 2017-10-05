@@ -3,7 +3,8 @@ Wiki-Format: zim 0.4
 Creation-Date: 2017-09-07T16:45:34-04:00
 
 ====== 3. Team Goals ======
-Created Thursday 07 September 2017
+Tuesday, May 02, 2017
+AUTHOR: @author_bgodfr5236
 
 * Go to the state championship again this year.
 * Work efficiently and avoid wasting time.
