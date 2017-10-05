@@ -23,3 +23,10 @@ TODO:
 [ ] Next: and then this stupid other thing too
 
 FIXME: This really needs to be fixed  !!!
+
+FIXME: @hold_unclear this could be fixed, but it's not clear what it's asking 
+FIXME: @hold this could be fixed, but it is on hold for now 
+FIXME: @hold_help this could be fixed, but we're waiting for help
+PHOTO: @hold_missing this couldn't be replaced with a photo because it is missing
+
+TODO: @cdunla6940 should fix this one

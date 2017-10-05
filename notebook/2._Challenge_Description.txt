@@ -4,7 +4,7 @@ Creation-Date: 2017-05-02T20:55:59-04:00
 
 ====== 2. Challenge Description ======
 Tuesday, May 02, 2017
-AUTHORS: @author_cdunla6940, @author_bgodfr5236, @author_iwaldr0912
+AUTHORS: @cdunla6940, @bgodfr5236, @iwaldr0912
 
 ===== The Field =====
 The //In The Zone// field looks very different from previous seasons. Still, they have some similarities. The Vex Robotics 2017-2018 game, named In The Zone, consists of many cones that a robot must place on top of either mobile goals that are placed into scoring zones or on top of scoring posts. The object of the game is to have higher stacks of cones to accumulate more points than the opposing alliance. on the field there are total of 80 regular cones and 10 mobile cones (5 red and 5 blue). There also two stationary goals, one for each color. There are also two 5 point, 10 point, and 20 point zones. Each of the alliances robot start in the 5 point zone, the back of the robot touching the first pipe. After this, the autonomous period.

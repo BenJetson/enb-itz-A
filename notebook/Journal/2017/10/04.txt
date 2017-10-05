@@ -3,7 +3,7 @@ Wiki-Format: zim 0.4
 Creation-Date: 2017-10-04T20:36:03-04:00
 
 ====== Wednesday, Oct 04, 2017 ======
-AUTHOR: @author_UNKNOWN
+AUTHOR: @no_author
 
 ===== Summary =====
 
