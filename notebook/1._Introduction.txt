@@ -4,6 +4,6 @@ Creation-Date: 2017-05-02T20:54:49-04:00
 
 ====== 1. Introduction ======
 Tuesday, May 02, 2017
-AUTHOR:	@no_author
+AUTHOR: @no_author
 
 Welcome to the wiki. This is a page that describes it all and says everything. 
