@@ -10,4 +10,4 @@ AUTHOR: @scoman5658
 * Work efficiently and avoid wasting time.
 
 TODO: @scoman5658 need more team goals
-FIXME: change date in page meta properties
+FIXME: @bgodfr5236 change date in page meta properties
