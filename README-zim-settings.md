@@ -24,6 +24,7 @@ ENABLE these plugins:
 * Table of Contents
 * Tags
 * Task List
+* Tray Icon
 
 #### Journal Plugin Configure
 
