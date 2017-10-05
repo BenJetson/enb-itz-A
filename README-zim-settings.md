@@ -32,7 +32,9 @@ ENABLE these plugins:
 #### Task List Plugin Configure
 
 Paste this for _labels marking tasks_: `FIXME, TODO, PHOTO, MISSING, VERIFY, HELP-WANTED, BS-NEEDED`
+Paste this for _tags for non-actionable tasks_: `@hold, @hold_unclear, @hold_help, @hold_missing`
 
-![image](https://user-images.githubusercontent.com/10427974/31207418-22360de8-a94c-11e7-97d6-41ce35b6c01e.png)
+![image](https://user-images.githubusercontent.com/10427974/31208101-56ebb52a-a950-11e7-9232-048d0c8146f7.png)
+
 
 
