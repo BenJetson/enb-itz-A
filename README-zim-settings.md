@@ -27,7 +27,7 @@ ENABLE these plugins:
 
 #### Journal Plugin Configure
 
-  * ![image](https://user-images.githubusercontent.com/10427974/31207110-3363cc7e-a94a-11e7-8a4c-48ac0ea4ffe0.png)
+![image](https://user-images.githubusercontent.com/10427974/31207110-3363cc7e-a94a-11e7-8a4c-48ac0ea4ffe0.png)
 
 #### Task List Plugin Configure
 
