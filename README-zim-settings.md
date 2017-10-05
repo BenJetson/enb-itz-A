@@ -2,6 +2,9 @@
 
 Change settings via EDIT menu then PREFERENCES
 
+![image](https://user-images.githubusercontent.com/10427974/31207500-8f7d2f12-a94c-11e7-8d15-6be11ce7085b.png)
+
+
 # Interface tab
 
 ![image](https://user-images.githubusercontent.com/10427974/31206824-4de30346-a948-11e7-9655-92180989630d.png)
