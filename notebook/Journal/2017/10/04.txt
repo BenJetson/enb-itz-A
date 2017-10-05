@@ -7,7 +7,8 @@ AUTHOR: @no_author
 
 ===== Summary =====
 
-* Make a bullet list of actions taken here
+* We started to re-make the gear box for the claw
+* We started to build the left pillar of our robot. This'll connet to our arm which'll cone
 
 ===== Journal =====
 
