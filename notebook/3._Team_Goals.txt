@@ -1,6 +1,6 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2017-09-07T16:45:34-04:00
+Creation-Date: 2017-05-02T16:45:34-04:00
 
 ====== 3. Team Goals ======
 Tuesday, May 02, 2017
@@ -10,4 +10,3 @@ AUTHOR: @scoman5658
 * Work efficiently and avoid wasting time.
 
 TODO: @scoman5658 need more team goals
-FIXME: @bgodfr5236 change date in page meta properties

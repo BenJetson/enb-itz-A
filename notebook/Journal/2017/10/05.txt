@@ -8,10 +8,9 @@ AUTHOR: @no_author
 ===== Summary =====
 
 
-
 ===== Journal =====
 
 Write a detailed description in paragraph form here. **Include pictures**!!
 
-TODO: Journal 10/5
-PHOTO: Journal 10/5
+TODO: @cdunla6940 Write journal for 10/5
+PHOTO: Need photos from 10/5
