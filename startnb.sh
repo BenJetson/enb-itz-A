@@ -23,7 +23,7 @@ if [ $PLATFORM == 0 ]; then
 fi
 
 # verify that environment is sane
-CDENB_EXISTS=$(alias cdenb 2> /dev/null)
+CDENB_EXISTS=$(alias cdenb 2>/dev/null)
 ZIM_EXISTS=$(command -v zim)
 
 if ! [ $CDENB_EXISTS ]; then
@@ -43,11 +43,11 @@ git push
 
 # copy notebook template changes to system, if any
 if [ $PLATFORM == 1 ]; then
-    yes | cp ./templates ~/.local/share/zim/
+    yes | cp -r ./templates ~/.local/share/zim/
 elif [ $PLATFORM == 2 ]; then 
-    yes | cp ./templates ~/AppData/Roaming/zim/data/zim/
+    yes | cp -r ./templates ~/AppData/Roaming/zim/data/zim/
 fi
 
 # open the notebook
-zim ~/Documents/GitHub/enb-itz-A/notebook
+zim ./notebook
 
