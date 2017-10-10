@@ -8,7 +8,7 @@
 DEBUG=false
 
 spacer () {
-    for i in {1..5}
+    for i in {1..2}
     do
         echo ""
     done
@@ -19,6 +19,7 @@ section () {
     echo "---$1---"
 }
 
+section "CHECKING ENVIRONMENT"
 # check which platform we're on
 OSTYPE=$(uname -s)
 
@@ -31,7 +32,7 @@ esac
 # verify that environment is sane
 CDENB_EXISTS=$(alias 'cdenb' 2>/dev/null)
 ZIM_PATH_EXISTS=$(command -v zim 2>/dev/null)
-ZIM_EXISTS=$(zim -v)
+ZIM_EXISTS=$(zim -v 1>/dev/null)
 
 if [ $DEBUG = true ]; then 
     spacer
@@ -66,6 +67,7 @@ fi
 
 
 # cd into directory, and synchronize changes
+section "CD"
 cdenb
 section "CHECKOUT"
 git checkout master
@@ -75,6 +77,7 @@ section "PUSH"
 git push
 
 # copy notebook template changes to system, if any
+section "COPY TEMPLATES"
 if [ $PLATFORM == 1 ]; then
     yes | cp -r ./templates ~/.local/share/zim/
 elif [ $PLATFORM == 2 ]; then 
@@ -82,5 +85,6 @@ elif [ $PLATFORM == 2 ]; then
 fi
 
 # open the notebook
-# zim ./notebook & disown
+section "OPEN NOTEBOOK"
+zim ./notebook & disown
 
