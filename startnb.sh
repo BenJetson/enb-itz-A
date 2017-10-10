@@ -9,7 +9,7 @@ DEBUG=false
 
 # check which platform we're on
 OSTYPE=$(uname -s)
-if [ $DEBUG ]; then 
+if [ $DEBUG = true ]; then 
     echo $OSTYPE
 fi
 
@@ -61,5 +61,5 @@ elif [ $PLATFORM == 2 ]; then
 fi
 
 # open the notebook
-zim ./notebook
+zim ./notebook & disown
 
