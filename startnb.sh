@@ -5,7 +5,7 @@
 #     alias 'cdenb' should cd to wherever the repository is stored
 
 # meta
-DEBUG=true
+DEBUG=false
 
 # check which platform we're on
 OSTYPE=$(uname -s)
