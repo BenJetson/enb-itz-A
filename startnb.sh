@@ -23,10 +23,8 @@ if [ $PLATFORM == 0 ]; then
 fi
 
 # verify that environment is sane
-return 0
-CDENB_EXISTS = $(alias cdenb 2>/dev/null)
-ZIM_EXISTS = $(command -v zim)
-return 0
+CDENB_EXISTS=$(alias cdenb 2>/dev/null)
+ZIM_EXISTS=$(command -v zim)
 if ! [ $CDENB_EXISTS ]; then
     echo "ERROR: Couldn't find alias to cd to notebook path."
     return 1
