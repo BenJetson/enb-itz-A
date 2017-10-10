@@ -16,11 +16,25 @@ case "$OSTYPE" in
 esac 
 echo $PLATFORM
 
-# if platform unrecognized, then exit to avoid breaking things
+# if platform unrecognized, then return to avoid breaking things
 if [ $PLATFORM == 0 ]; then
     echo "ERROR: Unrecognized platform -- this script may be incompatible"
-    exit 1
+    return 1
 fi
+
+# verify that environment is sane
+return 0
+CDENB_EXISTS = $(alias cdenb 2>/dev/null)
+ZIM_EXISTS = $(command -v zim)
+return 0
+if ! [ $CDENB_EXISTS ]; then
+    echo "ERROR: Couldn't find alias to cd to notebook path."
+    return 1
+elif ! [ $ZIM_EXISTS ]; then
+    echo "ERROR: Couldn't find Zim Wiki by alias 'zim' or your path variable."
+    return 1
+fi
+
 
 # cd into directory, and synchronize changes
 cdenb
