@@ -9,16 +9,27 @@ DEBUG=false
 
 # check which platform we're on
 OSTYPE=$(uname -s)
-if [ $DEBUG = true ]; then 
-    echo $OSTYPE
-fi
 
 case "$OSTYPE" in 
     Linux*)     PLATFORM=1;;
     MINGW*)     PLATFORM=2;;
     *)          PLATFORM=0;;
 esac 
-echo $PLATFORM
+
+# verify that environment is sane
+CDENB_EXISTS=$(alias 'cdenb' 2>/dev/null)
+ZIM_PATH_EXISTS=$(command -v zim 2>/dev/null)
+ZIM_EXISTS=$(zim -v)
+
+if [ $DEBUG = true ]; then 
+    clear
+    echo "OS-TYPE: " $OSTYPE
+    echo "PLATFORM: " $PLATFORM
+    echo "CDENB-EXISTS: " $CDENB_EXISTS
+    echo "ZIM-EXISTS: " $ZIM_EXISTS
+    echo "ZIM-PATH-EXISTS: " $ZIM_PATH_EXISTS
+    clear
+fi
 
 # if platform unrecognized, then return to avoid breaking things
 if [ $PLATFORM == 0 ]; then
@@ -26,12 +37,7 @@ if [ $PLATFORM == 0 ]; then
     return 1
 fi
 
-# verify that environment is sane
-CDENB_EXISTS=$(alias 'cdenb' 2>/dev/null)
-ZIM_PATH_EXISTS=$(command -v zim)
-ZIM_EXISTS=$(zim -v)
-
-echo $ZIM_EXISTS
+# if environment isn't sane, display errors
 
 if [ -z "$CDENB_EXISTS" ]; then 
     echo "ERROR: Couldn't find alias to cd to notebook path."
