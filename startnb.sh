@@ -4,10 +4,14 @@
 #     alias 'zim' should point to wherever Zim Wiki is on your system
 #     alias 'cdenb' should cd to wherever the repository is stored
 
+# meta
+DEBUG=true
 
 # check which platform we're on
 OSTYPE=$(uname -s)
-echo $OSTYPE
+if [ $DEBUG ]; then 
+    echo $OSTYPE
+fi
 
 case "$OSTYPE" in 
     Linux*)     PLATFORM=1;;
