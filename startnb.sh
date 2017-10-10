@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 # For this to work, you need to have aliases for:
 #     alias 'zim' should point to wherever Zim Wiki is on your system
 #     alias 'cdenb' should cd to wherever the repository is stored
@@ -83,7 +81,10 @@ git push
 # copy notebook template changes to system, if any
 section "COPY TEMPLATES"
 if [ $PLATFORM == 1 ]; then
-    yes | cp -r ./templates ~/.local/share/zim/
+    (
+        set -e
+        yes | cp -r ./temAAKplates ~/.local/share/zim/
+    )
 elif [ $PLATFORM == 2 ]; then 
     yes | cp -r ./templates ~/AppData/Roaming/zim/data/zim/
 fi
