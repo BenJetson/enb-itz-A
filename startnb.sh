@@ -7,6 +7,14 @@
 # meta
 DEBUG=false
 
+spacer () {
+    for i in {1..5}
+    do
+        echo ""
+    done
+}
+spacer
+
 # check which platform we're on
 OSTYPE=$(uname -s)
 
