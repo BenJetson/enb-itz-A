@@ -13,7 +13,11 @@ spacer () {
         echo ""
     done
 }
-spacer
+
+section () {
+    spacer
+    echo "---$1---"
+}
 
 # check which platform we're on
 OSTYPE=$(uname -s)
@@ -30,13 +34,13 @@ ZIM_PATH_EXISTS=$(command -v zim 2>/dev/null)
 ZIM_EXISTS=$(zim -v)
 
 if [ $DEBUG = true ]; then 
-    clear
+    spacer
     echo "OS-TYPE: " $OSTYPE
     echo "PLATFORM: " $PLATFORM
     echo "CDENB-EXISTS: " $CDENB_EXISTS
     echo "ZIM-EXISTS: " $ZIM_EXISTS
     echo "ZIM-PATH-EXISTS: " $ZIM_PATH_EXISTS
-    clear
+    spacer
 fi
 
 # if platform unrecognized, then return to avoid breaking things
@@ -63,8 +67,11 @@ fi
 
 # cd into directory, and synchronize changes
 cdenb
+section "CHECKOUT"
 git checkout master
+section "PULL"
 git pull
+section "PUSH"
 git push
 
 # copy notebook template changes to system, if any
@@ -75,5 +82,5 @@ elif [ $PLATFORM == 2 ]; then
 fi
 
 # open the notebook
-zim ./notebook & disown
+# zim ./notebook & disown
 
