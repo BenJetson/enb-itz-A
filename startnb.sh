@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # For this to work, you need to have aliases for:
 #     alias 'zim' should point to wherever Zim Wiki is on your system
 #     alias 'cdenb' should cd to wherever the repository is stored
@@ -8,7 +10,7 @@
 DEBUG=false
 
 spacer () {
-    for i in {1..2}
+    for i in {1..1}
     do
         echo ""
     done
@@ -65,10 +67,12 @@ elif [ ! -z "$ZIM_EXISTS" ]; then
     return 1
 fi
 
+echo "PASS - Environment is sane."
 
 # cd into directory, and synchronize changes
 section "CD"
 cdenb
+echo $PWD
 section "CHECKOUT"
 git checkout master
 section "PULL"
@@ -87,4 +91,5 @@ fi
 # open the notebook
 section "OPEN NOTEBOOK"
 zim ./notebook & disown
+echo "Success!"
 
