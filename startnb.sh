@@ -35,7 +35,7 @@ else
     echo "foo"
 fi
 
-if ! command -v zim; then
+if ! [[ $ZIM_EXISTS ]]; then
     echo "ERROR: Couldn't find Zim Wiki by alias 'zim' or your path variable."
     return 1
 else
