@@ -24,7 +24,8 @@ fi
 
 # verify that environment is sane
 CDENB_EXISTS=$(alias 'cdenb' 2>/dev/null)
-ZIM_EXISTS=$(command -v zim)
+ZIM_PATH_EXISTS=$(command -v zim)
+ZIM_EXISTS=$(zim -v)
 
 echo $ZIM_EXISTS
 
@@ -33,8 +34,12 @@ if [ -z "$CDENB_EXISTS" ]; then
     return 1
 fi
 
-if [ -z $ZIM_EXISTS ]; then
+if [ -z "$ZIM_PATH_EXISTS" ]; then
     echo "ERROR: Couldn't find Zim Wiki by alias 'zim' or your path variable."
+    return 1
+elif [ ! -z "$ZIM_EXISTS" ]; then
+    echo "ERROR: Your path points to Zim Wiki, but no binary found!"
+    return 1
 fi
 
 
