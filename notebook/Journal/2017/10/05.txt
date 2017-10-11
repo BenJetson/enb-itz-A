@@ -6,11 +6,12 @@ Creation-Date: 2017-10-04T20:35:42-04:00
 AUTHOR: @no_author
 
 ===== Summary =====
-ewrtg
+* Made the right pillar of our arm
+* finished the hand or claw of our robot.
 
 ===== Journal =====
 
-Write a detailed description in paragraph form here. **Include pictures**!!
+Since we already built the the left pillar we started to build the second one. On the left, we started to put c-channels up to holed the arm. We also put gears up to move the arm. After that, the left pillar was fully built. 
 
 TODO: @cdunla6940 Write journal for 10/5
 PHOTO: Need photos from 10/5
