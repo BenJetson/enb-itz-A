@@ -144,6 +144,10 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
         return 1
     fi
 
+    if [ $debug = true ]; then
+        echo "TEMPLATE-PATH: " $template_path
+    fi
+
     yes | cp -r ./templates $template_path
 
     if [ $? -ne 0 ]; then
@@ -152,7 +156,7 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
         return 1
     fi
 
-    echo "Success! Templates copied to $template_path."
+    echo "Success! Templates copied successfully."
 
 fi
 
