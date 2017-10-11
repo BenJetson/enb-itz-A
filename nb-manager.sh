@@ -4,11 +4,28 @@
 #     alias 'zim' should point to wherever Zim Wiki is on your system
 #     alias 'cdenb' should cd to wherever the repository is stored
 
-# meta
-debug=false
+# useful functions
+spacer () {
+    for i in {1..1}
+    do
+        echo ""
+    done
+}
 
+section () {
+    spacer
+    echo "---$1---"
+}
+
+# globals
+debug=false
+mode=-1
+
+# check modes from first argument
 if [ $# -gt 2 ]; then
+    spacer
     echo "ERROR: Too many arguments."
+    return 1
 elif [ $# -eq 0 ]; then
     mode=0
 elif [ "$1" == "start" ]; then
@@ -22,25 +39,23 @@ elif [ "$1" == "sync-templates" ]; then
 elif [ "$1" == "launch" ]; then
     mode=4
 else
+    spacer
     echo "ERROR: Illegal argument."
+    echo "       First argument should be a valid mode, not '$1'."
     return 1
 fi
 
-if [ $# -eq 2 ] && [ "$2" == "debug" ]; then
-    debug=true
+# enable debug output if requested
+if [ $# -eq 2 ]; then
+    if [ "$2" == "debug" ]; then
+        debug=true
+    else
+        spacer
+        echo "ERROR: Illegal argument."
+        echo "       Second argument should be debug switch, not '$2'."
+        return 1
+    fi
 fi
-
-spacer () {
-    for i in {1..1}
-    do
-        echo ""
-    done
-}
-
-section () {
-    spacer
-    echo "---$1---"
-}
 
 section "CHECKING ENVIRONMENT"
 # check which platform we're on
@@ -58,13 +73,14 @@ zim_path_exists=$(command -v zim 2>/dev/null)
 zim_exists=$(zim -v 1>/dev/null)
 
 if [ $debug = true ]; then 
-    spacer
+    section "DEBUGGING"
+    echo "DEBUG-MODE: " $debug
     echo "NUM-ARGS: " $#
     echo "ARG1: " $1
     echo "ARG2: " $2
     echo "SCRIPT-MODE: " $mode
     echo "OS-TYPE: " $os_type
-    echo "platform: " $platform
+    echo "PLATFORM: " $platform
     echo "CDENB-EXISTS: " $cdenb_exists
     echo "ZIM-EXISTS: " $zim_exists
     echo "ZIM-PATH-EXISTS: " $zim_path_exists
@@ -73,6 +89,7 @@ fi
 
 # if platform unrecognized, then return to avoid breaking things
 if [ $platform == 0 ]; then
+    spacer
     echo "ERROR: Unrecognized platform -- this script may be incompatible"
     return 1
 fi
@@ -80,44 +97,60 @@ fi
 # if environment isn't sane, display errors
 
 if [ -z "$cdenb_exists" ]; then 
+    spacer
     echo "ERROR: Couldn't find alias to cd to notebook path."
     return 1
 fi
 
 if [ -z "$zim_path_exists" ]; then
+    spacer
     echo "ERROR: Couldn't find Zim Wiki by alias 'zim' or your path variable."
     return 1
 elif [ ! -z "$zim_exists" ]; then
+    spacer
     echo "ERROR: Your path points to Zim Wiki, but no binary found!"
     return 1
 fi
 
 echo "PASS - Environment is sane."
 
-# cd into directory, and synchronize changes
+# cd into directory
 section "CD"
 cdenb
 echo $PWD
-section "CHECKOUT"
-git checkout master
-section "PULL"
-git pull
-section "PUSH"
-git push
+
+# synchronize changes with server
+if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 2 ]; then
+    section "CHECKOUT"
+    git checkout master
+
+    section "PULL"
+    git pull
+
+    section "PUSH"
+    git push
+fi
 
 # copy notebook template changes to system, if any
-section "COPY TEMPLATES"
-if [ $platform == 1 ]; then
-    (
-        set -e
-        yes | cp -r ./temAAKplates ~/.local/share/zim/
-    )
-elif [ $platform == 2 ]; then 
-    yes | cp -r ./templates ~/AppData/Roaming/zim/data/zim/
+if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
+    section "COPY TEMPLATES"
+    if [ $platform == 1 ]; then
+        (
+            set -e
+            yes | cp -r ./temAAKplates ~/.local/share/zim/
+        )
+    elif [ $platform == 2 ]; then 
+        yes | cp -r ./templates ~/AppData/Roaming/zim/data/zim/
+    fi
 fi
 
 # open the notebook
-section "OPEN NOTEBOOK"
-# zim ./notebook & disown
-echo "Success!"
+if [ $mode -eq 0 ] || [ $mode -eq 4 ]; then
+    section "OPEN NOTEBOOK"
+    # zim ./notebook & disown
+    echo "Success!"
+fi
+
+spacer
+echo "Done."
 
