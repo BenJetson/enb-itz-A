@@ -7,6 +7,29 @@
 # meta
 debug=false
 
+if [ $# -gt 2 ]; then
+    echo "ERROR: Too many arguments."
+elif [ $# -eq 0 ]; then
+    mode=0
+elif [ "$1" == "start" ]; then
+    mode=0
+elif [ "$1" == "sync" ]; then
+    mode=1
+elif [ "$1" == "sync-repo" ]; then
+    mode=2
+elif [ "$1" == "sync-templates" ]; then
+    mode=3
+elif [ "$1" == "launch" ]; then
+    mode=4
+else
+    echo "ERROR: Illegal argument."
+    return 1
+fi
+
+if [ $# -eq 2 ] && [ "$2" == "debug" ]; then
+    debug=true
+fi
+
 spacer () {
     for i in {1..1}
     do
@@ -36,6 +59,10 @@ zim_exists=$(zim -v 1>/dev/null)
 
 if [ $debug = true ]; then 
     spacer
+    echo "NUM-ARGS: " $#
+    echo "ARG1: " $1
+    echo "ARG2: " $2
+    echo "SCRIPT-MODE: " $mode
     echo "OS-TYPE: " $os_type
     echo "platform: " $platform
     echo "CDENB-EXISTS: " $cdenb_exists
@@ -91,6 +118,6 @@ fi
 
 # open the notebook
 section "OPEN NOTEBOOK"
-zim ./notebook & disown
+# zim ./notebook & disown
 echo "Success!"
 
