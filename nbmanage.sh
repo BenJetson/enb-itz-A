@@ -157,7 +157,6 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
     fi
 
     echo "Success! Templates copied successfully."
-
 fi
 
 # open the notebook
