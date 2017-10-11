@@ -1,20 +1,18 @@
 #!/bin/bash
 
-# set -o errexit
-
 # For this to work, you need to have aliases for:
 #     alias 'zim' should point to wherever Zim Wiki is on your system
 #     alias 'cdenb' should cd to wherever the repository is stored
 
 # useful functions
-spacer () {
+spacer() {
     for i in {1..1}
     do
         echo ""
     done
 }
 
-section () {
+section() {
     spacer
     echo "---$1---"
 }
@@ -167,4 +165,3 @@ fi
 
 spacer
 echo "Done."
-
