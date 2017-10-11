@@ -161,7 +161,7 @@ fi
 # open the notebook
 if [ $mode -eq 0 ] || [ $mode -eq 4 ]; then
     section "OPEN NOTEBOOK"
-    # zim ./notebook & disown
+    zim ./notebook & disown
     echo "Success!"
 fi
 
