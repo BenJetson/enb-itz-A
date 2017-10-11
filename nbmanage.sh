@@ -17,6 +17,11 @@ section() {
     echo "---$1---"
 }
 
+exiterror() {
+    return 1
+    exit 1
+}
+
 # globals
 debug=false
 mode=-1
@@ -25,7 +30,7 @@ mode=-1
 if [ $# -gt 2 ]; then
     spacer
     echo "ERROR: Too many arguments."
-    return 1
+    exiterror
 elif [ $# -eq 0 ]; then
     mode=0
 elif [ "$1" == "run" ]; then
@@ -42,7 +47,7 @@ else
     spacer
     echo "ERROR: Illegal argument."
     echo "       First argument should be a valid mode, not '$1'."
-    return 1
+    exiterror
 fi
 
 # enable debug output if requested
@@ -53,7 +58,7 @@ if [ $# -eq 2 ]; then
         spacer
         echo "ERROR: Illegal argument."
         echo "       Second argument should be debug switch, not '$2'."
-        return 1
+        exiterror
     fi
 fi
 
@@ -91,7 +96,7 @@ fi
 if [ $platform == 0 ]; then
     spacer
     echo "ERROR: Unrecognized platform -- this script may be incompatible"
-    return 1
+    exiterror
 fi
 
 # if environment isn't sane, display errors and exit
@@ -99,17 +104,17 @@ fi
 if [ -z "$cdenb_exists" ]; then 
     spacer
     echo "ERROR: Couldn't find alias to cd to notebook path."
-    return 1
+    exiterror
 fi
 
 if [ -z "$zim_path_exists" ]; then
     spacer
     echo "ERROR: Couldn't find Zim Wiki by alias 'zim' or your path variable."
-    return 1
+    exiterror
 elif [ ! -z "$zim_exists" ]; then
     spacer
     echo "ERROR: Your path points to Zim Wiki, but no binary found!"
-    return 1
+    exiterror
 fi
 
 echo "PASS - Environment is sane."
@@ -141,7 +146,7 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
     else
         spacer
         echo "ERROR: No known template path!"
-        return 1
+        exiterror
     fi
 
     if [ $debug = true ]; then
@@ -153,7 +158,7 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
     if [ $? -ne 0 ]; then
         spacer
         echo "ERROR: Copying templates failed!"
-        return 1
+        exiterror
     fi
 
     echo "Success! Templates copied successfully."
