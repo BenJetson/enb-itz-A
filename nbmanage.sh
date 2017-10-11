@@ -83,7 +83,7 @@ elif [ $# -eq 0 ]; then
     mode=0
 elif [ "$1" == "help" ]; then
     showhelp
-    return 0 2>/dev/null; exit 0
+    return 0 2>/dev/null; exit 
 elif [ "$1" == "envcheck" ]; then
     mode=-1
 elif [ "$1" == "run" ]; then
@@ -120,7 +120,8 @@ if [ $# -eq 2 ]; then
         debug=true
     elif [ $mode -ge 5 ] && [ $mode -le 8 ] && [ "$2" == "nocd" ]; then
         spacer
-        echo "ERROR: Option 'nocd' is incompatible with cd-related modes."
+        echo "ERROR: Illegal argument."
+        echo "       Option 'nocd' is incompatible with cd-related modes."
         return 1 2>/dev/null; exit 1
     elif [ "$2" == "nocd" ]; then
         nocd=true
