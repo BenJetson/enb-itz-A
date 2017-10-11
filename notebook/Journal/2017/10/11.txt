@@ -9,4 +9,6 @@ Creation-Date: 2017-10-11T17:05:16-04:00
 * Designed a new claw.
 
 ===== Journal =====
-Our old claw was too big. It also might weigh down our robot. Because of this, we decided to make up a new claw design. This includes a bended piece of metal with screws and barrings coming out of the metal. Rubber bands will give our claw grip (this was also used on our original design). With this new design that we have we can not
+Our old claw was too big. It also might weigh down our robot. Because of this, we decided to make up a new claw design. This includes a bended piece of metal with screws and barrings coming out of the metal. Rubber bands will give our claw grip (this was also used on our original design). With this new design that we have a light claw that can still pick up cones. With our other one, it could pick up cones; however as said perviously it's big, heavy, and clunky. The main problem was its weight which is know fixed.
+
+PHOTO: New claw.
