@@ -30,7 +30,7 @@ if [ $# -gt 2 ]; then
     return 1
 elif [ $# -eq 0 ]; then
     mode=0
-elif [ "$1" == "start" ]; then
+elif [ "$1" == "run" ]; then
     mode=0
 elif [ "$1" == "sync" ]; then
     mode=1
@@ -38,7 +38,7 @@ elif [ "$1" == "sync-repo" ]; then
     mode=2
 elif [ "$1" == "sync-templates" ]; then
     mode=3
-elif [ "$1" == "launch" ]; then
+elif [ "$1" == "view" ]; then
     mode=4
 else
     spacer
