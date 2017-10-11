@@ -17,8 +17,61 @@ section() {
     echo "---$1---"
 }
 
+cdto() {
+    section "CD"
+    if [ -z "$1" ]; then
+        cdenb
+    else
+        cd $1
+    fi
+    echo $PWD
+}
+
+showhelp() {
+cat <<-ENDHELP
+NAME
+
+    nbmanage - manages the ZIM engineering notebook
+
+SYNOPSIS
+
+    nbmanage [MODE] [OPITONS]
+
+DESCRIPTION
+
+    MODES
+    cd              Changes the current directory to the repo directory.
+    cd-nb           Changes the current directory to the notebook directory.
+    cd-rt           Changes the current directory to the repository ZIM
+                    template directory.
+    cd-st           Changes the current directory to the local system ZIM
+                    template directory.
+    envcheck        Runs a sanity check for notebook editing on your 
+                    environment. Checks for aliases and necessary software. 
+    explore         Opens a file browser to repo directory.
+    run             Equivalent to running with no parameters. Performs an 
+                    environment check, a full synchronization, and opens 
+                    the notebook in ZIM (envcheck, sync, and view).
+    sync            Runs a full VCS synchronization with the server, 
+                    and then updates system ZIM templates from the repo.
+    sync-repo       Runs a full VCS synchronization, with pull and push.
+    sync-templates  Updates templates from the repo template directory  
+                    to the system ZIM template directory.
+    view            Opens the notebook in ZIM.
+
+    OPTIONS
+    nocd            CD back to the origin directory when finished. Only
+                    works with non-cd related modes. Otherwise, the script
+                    will CD to the repository when executed by default.
+    debug           Make the script print output useful for debugging.
+
+ENDHELP
+}
+
 # globals
 debug=false
+nocd=false
+origindir=$PWD
 mode=-1
 
 # check modes from first argument
@@ -28,6 +81,11 @@ if [ $# -gt 2 ]; then
     return 1 2>/dev/null; exit 1
 elif [ $# -eq 0 ]; then
     mode=0
+elif [ "$1" == "help" ]; then
+    showhelp
+    return 0 2>/dev/null; exit 0
+elif [ "$1" == "envcheck" ]; then
+    mode=-1
 elif [ "$1" == "run" ]; then
     mode=0
 elif [ "$1" == "sync" ]; then
@@ -38,6 +96,17 @@ elif [ "$1" == "sync-templates" ]; then
     mode=3
 elif [ "$1" == "view" ]; then
     mode=4
+elif [ "$1" == "cd" ]; then
+    mode=5
+elif [ "$1" == "cd-nb" ]; then
+    mode=6
+elif [ "$1" == "cd-rt" ]; then
+    mode=7
+elif [ "$1" == "cd-st" ]; then
+    mode=8
+elif [ "$1" == "explore" ]; then
+    mode=9
+    nocd=true
 else
     spacer
     echo "ERROR: Illegal argument."
@@ -49,10 +118,16 @@ fi
 if [ $# -eq 2 ]; then
     if [ "$2" == "debug" ]; then
         debug=true
+    elif [ $mode -ge 5 ] && [ $mode -le 8 ] && [ "$2" == "nocd" ]; then
+        spacer
+        echo "ERROR: Option 'nocd' is incompatible with cd-related modes."
+        return 1 2>/dev/null; exit 1
+    elif [ "$2" == "nocd" ]; then
+        nocd=true
     else
         spacer
         echo "ERROR: Illegal argument."
-        echo "       Second argument should be debug switch, not '$2'."
+        echo "       Second argument should be valid option, not '$2'."
         return 1 2>/dev/null; exit 1
     fi
 fi
@@ -62,9 +137,18 @@ section "CHECKING ENVIRONMENT"
 os_type=$(uname -s)
 
 case "$os_type" in 
-    Linux*)     platform=1;;
-    MINGW*)     platform=2;;
-    *)          platform=0;;
+    Linux*) # LINUX
+        platform=1
+        template_path=~/.local/share/zim/
+        ;;
+    MINGW*) # WINDOWS
+        platform=2
+        template_path=~/AppData/Roaming/zim/data/zim/
+        ;;
+    *)
+        platform=0
+        template_path=""
+        ;;
 esac 
 
 # verify that environment is sane
@@ -85,6 +169,7 @@ if [ $debug = true ]; then
     echo "CDENB-EXISTS: " $cdenb_exists
     echo "ZIM-EXISTS: " $zim_exists
     echo "ZIM-PATH-EXISTS: " $zim_path_exists
+    echo "TEMPLATE-PATH: " $template_path
     spacer
 fi
 
@@ -116,9 +201,9 @@ fi
 echo "PASS - Environment is sane."
 
 # cd into directory
-section "CD"
-cdenb
-echo $PWD
+if [ $mode -ne -1 ]; then
+    cdto
+fi
 
 # synchronize changes with server
 if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 2 ]; then
@@ -135,18 +220,10 @@ fi
 # copy notebook template changes to system, if any
 if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
     section "COPY TEMPLATES"
-    if [ $platform == 1 ]; then
-         template_path=~/.local/share/zim/
-    elif [ $platform == 2 ]; then 
-        template_path=~/AppData/Roaming/zim/data/zim/
-    else
+    if [ -z "$template_path" ]; then
         spacer
         echo "ERROR: No known template path!"
         return 1 2>/dev/null; exit 1
-    fi
-
-    if [ $debug = true ]; then
-        echo "TEMPLATE-PATH: " $template_path
     fi
 
     yes | cp -r ./templates $template_path
@@ -165,6 +242,27 @@ if [ $mode -eq 0 ] || [ $mode -eq 4 ]; then
     section "OPEN NOTEBOOK"
     zim ./notebook & disown
     echo "Success!"
+fi
+
+# launch file browser to notebook if requested.
+if [ $mode -eq 9 ]; then
+    section "EXPLORE"
+    case $platform in
+        1) xdg-open .;;
+        2) explorer .;;
+    esac
+fi
+
+
+# cd to directory based on arguments
+case $mode in
+    6) cdto ./notebook;;
+    7) cdto ./templates;;
+    8) cdto $template_path;;
+esac
+
+if [ $nocd = true ]; then
+    cdto $origindir
 fi
 
 spacer
