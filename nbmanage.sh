@@ -39,30 +39,42 @@ SYNOPSIS
 
 DESCRIPTION
 
-    MODES
+    ==MODES==
     cd              Changes the current directory to the repo directory.
+
     cd-nb           Changes the current directory to the notebook directory.
+
     cd-rt           Changes the current directory to the repository ZIM
                     template directory.
+
     cd-st           Changes the current directory to the local system ZIM
                     template directory.
+
     envcheck        Runs a sanity check for notebook editing on your 
                     environment. Checks for aliases and necessary software. 
+
     explore         Opens a file browser to repo directory.
+
     run             Equivalent to running with no parameters. Performs an 
                     environment check, a full synchronization, and opens 
                     the notebook in ZIM (envcheck, sync, and view).
+
     sync            Runs a full VCS synchronization with the server, 
                     and then updates system ZIM templates from the repo.
+
     sync-repo       Runs a full VCS synchronization, with pull and push.
+
     sync-templates  Updates templates from the repo template directory  
                     to the system ZIM template directory.
+
     view            Opens the notebook in ZIM.
 
-    OPTIONS
+    ==OPTIONS==
+
     nocd            CD back to the origin directory when finished. Only
                     works with non-cd related modes. Otherwise, the script
                     will CD to the repository when executed by default.
+
     debug           Make the script print output useful for debugging.
 
 ENDHELP
