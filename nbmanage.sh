@@ -17,11 +17,6 @@ section() {
     echo "---$1---"
 }
 
-exiterror() {
-    return 1
-    exit 1
-}
-
 # globals
 debug=false
 mode=-1
@@ -30,7 +25,7 @@ mode=-1
 if [ $# -gt 2 ]; then
     spacer
     echo "ERROR: Too many arguments."
-    exiterror
+    return 1 2>/dev/null; exit 1
 elif [ $# -eq 0 ]; then
     mode=0
 elif [ "$1" == "run" ]; then
@@ -47,7 +42,7 @@ else
     spacer
     echo "ERROR: Illegal argument."
     echo "       First argument should be a valid mode, not '$1'."
-    exiterror
+    return 1 2>/dev/null; exit 1
 fi
 
 # enable debug output if requested
@@ -58,7 +53,7 @@ if [ $# -eq 2 ]; then
         spacer
         echo "ERROR: Illegal argument."
         echo "       Second argument should be debug switch, not '$2'."
-        exiterror
+        return 1 2>/dev/null; exit 1
     fi
 fi
 
@@ -96,7 +91,7 @@ fi
 if [ $platform == 0 ]; then
     spacer
     echo "ERROR: Unrecognized platform -- this script may be incompatible"
-    exiterror
+    return 1 2>/dev/null; exit 1
 fi
 
 # if environment isn't sane, display errors and exit
@@ -104,17 +99,17 @@ fi
 if [ -z "$cdenb_exists" ]; then 
     spacer
     echo "ERROR: Couldn't find alias to cd to notebook path."
-    exiterror
+    return 1 2>/dev/null; exit 1
 fi
 
 if [ -z "$zim_path_exists" ]; then
     spacer
     echo "ERROR: Couldn't find Zim Wiki by alias 'zim' or your path variable."
-    exiterror
+    return 1 2>/dev/null; exit 1
 elif [ ! -z "$zim_exists" ]; then
     spacer
     echo "ERROR: Your path points to Zim Wiki, but no binary found!"
-    exiterror
+    return 1 2>/dev/null; exit 1
 fi
 
 echo "PASS - Environment is sane."
@@ -146,7 +141,7 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
     else
         spacer
         echo "ERROR: No known template path!"
-        exiterror
+        return 1 2>/dev/null; exit 1
     fi
 
     if [ $debug = true ]; then
@@ -158,7 +153,7 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
     if [ $? -ne 0 ]; then
         spacer
         echo "ERROR: Copying templates failed!"
-        exiterror
+        return 1 2>/dev/null; exit 1
     fi
 
     echo "Success! Templates copied successfully."
