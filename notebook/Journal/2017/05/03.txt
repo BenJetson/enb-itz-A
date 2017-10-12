@@ -3,10 +3,7 @@ Wiki-Format: zim 0.4
 Creation-Date: 2017-10-05T22:31:28-04:00
 
 ====== Wednesday, May 03, 2017 ======
-AUTHOR: @author_UNKNOWN
-
-TODO: Start moving bad ideas from May into notebook !
-BS-NEEDED: Generate some crap about us having meetings in May
+AUTHOR: @cdunla6940
 
 ===== Summary =====
 
