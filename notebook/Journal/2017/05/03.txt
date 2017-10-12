@@ -10,8 +10,14 @@ BS-NEEDED: Generate some crap about us having meetings in May
 
 ===== Summary =====
 
-* Make a bullet list of actions taken here
+* Took a look at the new game
+* Started coming up with some ideas:
+* Dumper Bot
+* Clawbot
 
 ===== Journal =====
 
-Write a detailed description in paragraph form here. **Include pictures**!!
+So we took a look at Vex Robotics’ new game today, and we found a pretty difficult game. Right away we started to come up with some ideas. The first idea that we thought of was a dumper bot. We saw some of these last year so we asked ourselves, “How would it do in this year’s game?” Well we decided that it would not be a good design at all. For one, the robot would not be able to put regular cones on mobile or stationary goals. The reason for this is that the dumper bot isn’t good for putting things in an exact position. The other idea that we came up with was the clawbot. It’s pretty well know in the Vex community, but we decide it would not be the best idea. Although it has precise aim, it does not have the ability to do this quickly. If I need to pick up a cone and put it on the stationary or mobile goal it might take me 15 seconds. That means we stacked a total of 7 cones per round which isn’t a lot of points. Another major problem, was it couldn’t really pick up mobile goals especially with all the regular cones on top of it. We then left deciding that we need to think of designs overnight. 
+
+PHOTO: Sketches: Dumper bot, Clawbot
+
