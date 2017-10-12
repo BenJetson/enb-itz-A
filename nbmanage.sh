@@ -218,16 +218,40 @@ if [ $mode -ne -1 ]; then
     cdto
 fi
 
+if [ $? -ne 0 ]; then
+    spacer
+    echo "ERROR: CD to repository failed!"
+    return 1 2>/dev/null; exit 1
+fi
+
 # synchronize changes with server
 if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 2 ]; then
     section "CHECKOUT"
     git checkout master
 
+    if [ $? -ne 0 ]; then
+        spacer
+        echo "ERROR: Git checkout failed!"
+        return 1 2>/dev/null; exit 1
+    fi
+
     section "PULL"
     git pull
 
+    if [ $? -ne 0 ]; then
+        spacer
+        echo "ERROR: Git pull failed!"
+        return 1 2>/dev/null; exit 1
+    fi
+
     section "PUSH"
     git push
+
+    if [ $? -ne 0 ]; then
+        spacer
+        echo "ERROR: Git push failed!"
+        return 1 2>/dev/null; exit 1
+    fi
 fi
 
 # copy notebook template changes to system, if any
@@ -277,6 +301,12 @@ esac
 if [ $nocd = true ]; then
     cdto $origindir
 fi
+
+if [ $? -ne 0 ]; then
+        spacer
+        echo "ERROR: CD failed!"
+        return 1 2>/dev/null; exit 1
+    fi
 
 spacer
 echo "Done."
