@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-10-12T16:54:29-04:00
+
+====== Thursday 12 Oct 2017 ======
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+* Moved tall vertical bars from an external configuration to an internal configuration.
+* Dissasembled gearbox to decrease the distance between the limbs of the claw.
+
+===== Journal =====
+Today we went with the decision to move the outermost c-channels supporting the gearbox and claw to the inside of the base. We chose to do this because it 

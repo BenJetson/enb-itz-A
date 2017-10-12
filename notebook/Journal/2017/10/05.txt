@@ -7,7 +7,7 @@ AUTHOR: @no_author
 
 ===== Summary =====
 * Made the right pillar of our arm
-* finished the hand or claw of our robot.
+* Finished the hand or claw of our robot.
 
 ===== Journal =====
 
