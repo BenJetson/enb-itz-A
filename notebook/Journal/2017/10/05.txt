@@ -6,11 +6,14 @@ Creation-Date: 2017-10-04T20:35:42-04:00
 AUTHOR: @no_author
 
 ===== Summary =====
-
+* Made the right pillar of our arm
+* finished the hand or claw of our robot.
 
 ===== Journal =====
 
-Write a detailed description in paragraph form here. **Include pictures**!!
+Since we already built the the right pillar we started to build the second one. On the left, we started to put c-channels up to holed the arm. We also put gears up to move the arm. After that, the right pillar was fully built. Next, we built the claw or hand of our robot. Perviously, we came close to connecting the gear box to our claw, but we ran out of time. Now though, we had plenty of time to attach the arm to the gear box. So we completed two things today including attaching the claw to the gear box and building the right pillar that will attach to our arm.
 
-TODO: @cdunla6940 Write journal for 10/5
-PHOTO: Need photos from 10/5
+{{.\20171005_171742.jpg?width=500}}
+Right side of the pillar
+{{.\20171005_172417.jpg?width=500}}
+Claw connected to our gear box

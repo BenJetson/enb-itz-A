@@ -152,11 +152,11 @@ os_type=$(uname -s)
 case "$os_type" in 
     Linux*) # LINUX
         platform=1
-        template_path=~/.local/share/zim/
+        template_path=~/.local/share/zim
         ;;
     MINGW*) # WINDOWS
         platform=2
-        template_path=~/AppData/Roaming/zim/data/zim/
+        template_path=~/AppData/Roaming/zim/data/zim
         ;;
     *)
         platform=0
@@ -263,7 +263,7 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
         return 1 2>/dev/null; exit 1
     fi
 
-    yes | cp -r ./templates $template_path
+    yes | cp -r ./templates/* $template_path/
 
     if [ $? -ne 0 ]; then
         spacer

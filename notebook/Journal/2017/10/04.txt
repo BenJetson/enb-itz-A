@@ -14,8 +14,8 @@ AUTHOR: @cdunla6940
 
 For October 4th we started to realize that we need to finally connect our claw to our gear box. To do this we had to take apart our gear box and re-assemble it. We took the shaft collars off and took the c-channel off too. We then moved the gears in different spots so the claw would be able to fit or attach to the gear box. We didn't finish this assignment today, but tomorrow we should have it done. While have of us worked on the gear box, the other half worked on making an arm. We started to make a pillar at the back of our robot. This connects to our arm. This will be a mechanism that grabs a regular cone with a claw and pulls it over the pillar and puts it a the front, which is where our mobile goal intake will be.
 
-FIXME: @cdunla6940 This photo is broken — I forgot to show you how to use attachments
-{{~\Downloads\1004171735a.jpg?width=500}}
+
+{{.\1004171735_HDR.jpg?width=500}}
 //Part of the arm//
 
 
