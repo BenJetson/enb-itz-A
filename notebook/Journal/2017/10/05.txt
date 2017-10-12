@@ -15,5 +15,6 @@ Since we already built the the right pillar we started to build the second one. 
 
 {{.\20171005_171742.jpg?width=500}}
 //Right side of the pillar//
+
 {{.\20171005_172417.jpg?width=500}}
 //Claw connected to our gear box//

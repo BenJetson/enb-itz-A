@@ -3,7 +3,7 @@ Wiki-Format: zim 0.4
 Creation-Date: 2017-10-11T17:05:16-04:00
 
 ====== Wednesday 11 Oct 2017 ======
- AUTHOR: @cdunla6940
+ AUTHOR: @cdunla6940	
 
 ===== Summary =====
 * We designed a new claw mechanism to reduce weight.
