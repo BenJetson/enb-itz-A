@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-10-13T10:17:34-04:00
+
+====== Cones ======
+Tuesday, May 02, 2017
+AUTHOR: @author_UNKNOWN 
+
+TODO: Add some info about cones here, dimensions, etc
+PHOTO: Cone w/ dimensions
+PHOTO: Cone on field

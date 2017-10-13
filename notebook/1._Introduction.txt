@@ -7,3 +7,6 @@ Tuesday, May 02, 2017
 AUTHOR: @no_author
 
 Welcome to the wiki. This is a page that describes it all and says everything. 
+
+TODO: Add some info about the team here
+PHOTO: team photo from last year
