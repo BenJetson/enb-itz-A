@@ -11,3 +11,5 @@ AUTHOR: @iwaldr0912
 
 ===== Journal =====
 Today we went with the decision to move the outermost c-channels supporting the gearbox and claw to the inside of the base. We chose to do this because it 
+
+FIXME: @iwaldr0912 Entry incomplete!
