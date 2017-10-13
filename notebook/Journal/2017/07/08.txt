@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-10-13T09:53:38-04:00
+
+====== Saturday, Jul 08, 2017 ======
+AUTHOR: @author_UNKNOWN
+
+MISSING: first summer meeting entry
+
+===== Summary =====
+
+* Make a bullet list of actions taken here
+
+===== Journal =====
+
+Write a detailed description in paragraph form here. **Include pictures**!!
