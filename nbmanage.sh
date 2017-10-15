@@ -167,7 +167,7 @@ esac
 # verify that environment is sane
 cdenb_exists=$(alias 'cdenb' 2>/dev/null)
 zim_path_exists=$(command -v zim 2>/dev/null)
-zim_exists=$(zim -v 2>&1)
+zim_exists=$(zim -v 2>&1 1>/dev/null)
 # zim_exists=$(zim -v 1>/dev/null)
 
 if [ $debug = true ]; then 
