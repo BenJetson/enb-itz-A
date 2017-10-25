@@ -2,8 +2,8 @@
 version=0.4
 name=3796A In The Zone
 interwiki=in-the-zone-a
-home=1. Introduction
-icon=
+home=0. Title
+icon=./0._Title/3796a-plate.png
 document_root=
 shared=True
 endofline=unix

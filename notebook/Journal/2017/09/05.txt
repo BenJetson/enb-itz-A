@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-10-13T09:52:08-04:00
+
+====== Tuesday, Sep 05, 2017 ======
+AUTHOR: @author_UNKNOWN
+
+MISSING: entry for first meeting of the school year.
+
+===== Summary =====
+
+* Make a bullet list of actions taken here
+
+===== Journal =====
+
+Write a detailed description in paragraph form here. **Include pictures**!!

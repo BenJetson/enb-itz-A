@@ -3,7 +3,7 @@ Wiki-Format: zim 0.4
 Creation-Date: 2017-10-04T20:35:42-04:00
 
 ====== Thursday, Oct 05, 2017 ======
-AUTHOR: @no_author
+AUTHOR: @cundla6940
 
 ===== Summary =====
 * Made the right pillar of our arm
