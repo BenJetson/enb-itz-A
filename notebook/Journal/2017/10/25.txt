@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-10-25T17:23:44-04:00
+
+====== 25 ======
+Created Wednesday 25 October 2017
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+* Moved tall vertical bars from an external configuration to an internal configuration.
+* Dissasembled gearbox to decrease the distance between the limbs of the claw.
+
+===== Journal =====
+
