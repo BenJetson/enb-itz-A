@@ -2,8 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2017-10-25T17:23:44-04:00
 
-====== 25 ======
-Created Wednesday 25 October 2017
+====== Wednesday, Oct 25, 2017 ======
 AUTHOR: @iwaldr0912
 
 ===== Summary =====
@@ -11,4 +10,6 @@ AUTHOR: @iwaldr0912
 * Dissasembled gearbox to decrease the distance between the limbs of the claw.
 
 ===== Journal =====
+Write a detailed description in paragraph form here. **Include pictures**!!
 
+MISSING: @iwaldr0912  journal entry for OCT 25 !!
