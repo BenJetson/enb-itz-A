@@ -8,5 +8,11 @@ AUTHOR: @iwaldr0912
 
 ===== Summary =====
 * Fixed chain length on left side.
+* Finished assembling smaller gearbox.
+* Came up with plans to attach gearbox/claw to arm.
 
 ===== Journal =====
+Today we focused on the gearbox. We furthered progress with it, as we still need to add supports to it. 
+
+FIXME: @iwaldr0912 incomplete entry
+PHOTO: gearbox, sketches
