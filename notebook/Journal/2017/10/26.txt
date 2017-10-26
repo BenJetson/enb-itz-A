@@ -7,6 +7,6 @@ Created Thursday 26 October 2017
 AUTHOR: @iwaldr0912
 
 ===== Summary =====
-
+* Fixed chain length on left side.
 
 ===== Journal =====
