@@ -2,8 +2,12 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2017-10-25T17:23:44-04:00
 
+<<<<<<< HEAD
 ====== Wednesday, Oct 25 2017 ======
 Created Wednesday 25 October 2017
+=======
+====== Wednesday, Oct 25, 2017 ======
+>>>>>>> 9bb9307c42282784a49c71e39aa2a8d42cd483b8
 AUTHOR: @iwaldr0912
 
 ===== Summary =====
@@ -13,6 +17,7 @@ AUTHOR: @iwaldr0912
 * Reduced size of gearbox.
 
 ===== Journal =====
+<<<<<<< HEAD
 We started off today by adding 2 steel pieces to create a triangular support system on our base. This adds a tremendous amount of stability and versatility to the body overall, enforcing both the columns and base. To further reinforce the columns, we added 6 standoffs to each structure.
 We also fixed some spacing issues on the axle that holds the arm. This may be a small change, but it will make our robot a lot less shaky during matches and it makes each side symmetrical. 
 The final task that we completed today was reducing the size of our gearbox even further to make it lighter and smaller. Making the gearbox smaller not only uses less parts but it increases the practicality of the mechanism.
@@ -26,4 +31,8 @@ New Gearbox Sketch
 
 {{~\Documents\Robotics\Photos\Triangulars.jpg?width=500}}
 //Triangular Supports (Detached from Columns)//
+=======
+Write a detailed description in paragraph form here. **Include pictures**!!
+>>>>>>> 9bb9307c42282784a49c71e39aa2a8d42cd483b8
 
+MISSING: @iwaldr0912  journal entry for OCT 25 !!
