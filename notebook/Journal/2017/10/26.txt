@@ -12,7 +12,7 @@ AUTHOR: @iwaldr0912
 * Came up with plans to attach gearbox/claw to arm.
 
 ===== Journal =====
-Today we focused on the gearbox. We furthered progress with it, as we still need to add supports to it. 
+Today we focused on the gearbox. We furthered progress with it by removing unnecessarily wide c-channels and replacing them with 2x12 aluminum c-channels. We are making the entire claw mechanism out of aluminum to make it less of a load on the motors that will be lifting the arm. 
 
 FIXME: @iwaldr0912 incomplete entry
 PHOTO: gearbox, sketches
