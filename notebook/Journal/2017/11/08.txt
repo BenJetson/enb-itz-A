@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-11-09T16:48:49-05:00
+
+====== Wednesday, Nov 08, 2017 ======
+AUTHOR: @cdunla6940
+
+===== Summary =====
+
+* We attached our claw with aluminum.
+* We edited our size of our chain.
+* Re-made our base
+
+===== Journal =====
+
+We did two things to our arm today. One of the things that we did was attach our hand or claw to our arm with aluminum. This will make our arm weigh much less. The main reason of why we need it to weigh less is to make our robot less top-heavy; we don’t want our robot to be tipped over during a game. The other thing that we did to our robot today was  edit our chain lengths. Previously, our chain lengths were too long so we had to take a few away. Lastly, to deal with the top-heavy problem, we are re-making our base. We are making it much more wider, so that we have more weight on our base. Consequently, our robot won’t tip over. This will also help us attach our pneumatic mobile goal lift idea easily.
+
+PHOTO: @cdunla6940 New base, Claw attached
