@@ -263,6 +263,7 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
         return 1 2>/dev/null; exit 1
     fi
 
+    mkdir -p $template_path/
     yes | cp -r ./templates/* $template_path/
 
     if [ $? -ne 0 ]; then
