@@ -156,7 +156,7 @@ case "$os_type" in
         ;;
     MINGW*) # WINDOWS
         platform=2
-        template_path=~/AppData/Roaming/zim/data/zim
+        template_path=~/AppData/Roaming/zim/data/zim/templates
         ;;
     *)
         platform=0
