@@ -15,7 +15,7 @@ AUTHOR: @iwaldr0912
 We started off today by adding 2 steel pieces to create a triangular support system on our base. This adds a tremendous amount of stability and versatility to the body overall, enforcing both the columns and base. To further reinforce the columns, we added 6 standoffs to each structure.
 We also fixed some spacing issues on the axle that holds the arm. This may be a small change, but it will make our robot a lot less shaky during matches and it makes each side symmetrical. 
 The final task that we completed today was reducing the size of our gearbox even further to make it lighter and smaller. Making the gearbox smaller not only uses less parts but it increases the practicality of the mechanism.
-In conclusion, we did a lot of tidying up today by making our robot more secure and making things fit more snugly.
+In conclusion, we did a lot of tidying up today by making our robot more secure and making things fit better.
 
 {{~\Documents\Robotics\Photos\Skinny Gearbox.jpg?width=500}}
 //New Gearbox with Mandibles//
