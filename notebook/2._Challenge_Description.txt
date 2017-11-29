@@ -13,7 +13,8 @@ The //In The Zone// field looks very different from previous seasons. Still, the
 An autonomous period begins at the start of each match, where robots try to score the most points in 15 seconds. During the autonomous period drivers or anyone else near the field are not to touch or control the robot. The robot should be controlled by code during the autonomous period. After the 15 seconds the referees will determine which team gained the most points. The team with most points will be granted a 10 points as a bonus. After the autonomous there'll be a driver control period.
 
 ===== Driver Control Period and Scoring =====
-This last 1 minute and 45 seconds. Here the drivers will have control of the robot and try to score points until time runs out. There are six ways to score inside of the In the Zone game. One of the ways is simple: stack one of the regular cones on a stationary goals or mobile goals. This'll earn you 2 points per cone stacked. Another way you can earn points is placing a mobile goal of your alliance in your 5, 10, or 20 points zones. The name corresponds with how many points you get: 5, 10, or 20. At the end of the round you can also earn points based off of how many cones you put on a tower. Compared to the other alliance the team with the highest stack per zone gets 5 points. Lastly, you can earn points by parking your robot on a parking tile at the end of the game. This'll earn you 2 points per robot.
+This last 1 minute and 45 seconds. Here the drivers will have control of the robot and try to score points until time runs out. There are six ways to score inside of the In the Zone game. 
+
 
 {{./pasted_image.png?width=700}}
 

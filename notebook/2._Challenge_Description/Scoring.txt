@@ -4,8 +4,18 @@ Creation-Date: 2017-10-13T10:18:42-04:00
 
 ====== Scoring ======
 Tuesday, May 02, 2017
-AUTHOR: @author_UNKNOWN 
+AUTHOR: @cdunla6940
 
-TODO: Add info about scoring here
-PHOTO: aerial view of scoring zones, annotated
-TODO: add exceptions, like cone posession
+| Description                                     | Points Earned |
+|:------------------------------------------------|:--------------|
+| Stacking a cone on a mobile or stationary goal. | 2             |
+| Mobile goal placed in 5 pt zone                 | 5             |
+| Mobile goal placed in 10 pt zone                | 10            |
+| Mobile goal placed in 20 pt zone                | 20            |
+| Parked robot                                    | 2             |
+| Alliance with the most cones stacked in a zone  | 5             |
+
+
+===== Non-Scored Actions =====
+There are certain actions that aren't scored in the Vex 2017-18 game, In the Zone. If you are touching a mobile goal when time runs out
+
