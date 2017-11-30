@@ -9,11 +9,8 @@ AUTHORS: @cdunla6940, @bgodfr5236, @iwaldr0912
 ===== The Field =====
 The //In The Zone// field looks very different from previous seasons. Still, they have some similarities. The Vex Robotics 2017-2018 game, named In The Zone, consists of many cones that a robot must place on top of either mobile goals that are placed into scoring zones or on top of scoring posts. The object of the game is to have higher stacks of cones to accumulate more points than the opposing alliance. on the field there are total of 80 regular cones and 10 mobile cones (5 red and 5 blue). There also two stationary goals, one for each color. There are also two 5 point, 10 point, and 20 point zones. Each of the alliances robot start in the 5 point zone, the back of the robot touching the first pipe. After this, the autonomous period.
 
-===== Autonomous Period =====
-An autonomous period begins at the start of each match, where robots try to score the most points in 15 seconds. During the autonomous period drivers or anyone else near the field are not to touch or control the robot. The robot should be controlled by code during the autonomous period. After the 15 seconds the referees will determine which team gained the most points. The team with most points will be granted a 10 points as a bonus. After the autonomous there'll be a driver control period.
-
-===== Driver Control Period and Scoring =====
-This last 1 minute and 45 seconds. Here the drivers will have control of the robot and try to score points until time runs out. There are six ways to score inside of the In the Zone game. 
+===== Autonomous and Driver Control Period =====
+An autonomous period begins at the start of each match, where robots try to score the most points in 15 seconds. During the autonomous period drivers or anyone else near the field are not to touch or control the robot. The robot should be controlled by code during the autonomous period. After the 15 seconds the referees will determine which team gained the most points. The team with most points will be granted a 10 points as a bonus. After the autonomous there'll be a driver control period. This lasts 1 minute and 45 seconds. Here the drivers will have control of the robot and try to score points until time runs out. 
 
 
 {{./pasted_image.png?width=700}}
