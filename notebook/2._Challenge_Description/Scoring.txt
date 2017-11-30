@@ -17,5 +17,5 @@ AUTHOR: @cdunla6940
 
 
 ===== Non-Scored Actions =====
-There are certain actions that aren't scored in the Vex 2017-18 game, In the Zone. If you are touching a mobile goal when time runs out
+There are certain actions that aren't scored in the Vex 2017-18 game, In the Zone. If you are touching a mobile goal when time runs out, then you don't get the points for the mobile goal's placement nor the amount of cones stack on said 
 

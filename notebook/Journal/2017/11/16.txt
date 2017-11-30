@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-11-30T16:19:58-05:00
+
+====== Thursday, Nov 16, 2017 ======
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+
+* Worked on arm sprockets.
+* Discussed plans of deconstructing base
+* Ordered new robot parts/supplies
+
+===== Journal =====
+
+Today we had rather limited attendance with three people absent, but we were still productive nonetheless. We started out the day by discussing why Garrett, currently absent, decided to drill out holes in two sprockets that were to be attached to the motors driving the arm. His motive was unclear, as he discussed his plans with Ian at the end of the day last week as we were packing up. The only thing we did know is that the intention was to have the sprockets spin freely of an axle. To figure out exactly what Garrett wanted, we placed the sprockets in multiple scenarios and configured them in different ways on the arm and on various axles on our robot. We also discussed with Mr. Hajosy and eventually came to the conclusion that they were cut to spin independently of the axle and allow the arm to move about a fixed point while keeping the claw horizontal to the ground. To accomplish this, the sprockets must be placed on the same axle that the motors spin to allow for fully independant. As a side note, the arm moves by being attached to that axle, and not via the sprockets. This experience taught us that clear communication is of the utmost importance when working with a meticulous design.
+After that endeavor, we discussed plans to disassemble the drivetrains as there were two problems with them. These two independent drive mechanisms were meant to replace our previous, more unstable design. The newer design is more sturdy as it uses wider c-channels, but the problem lies in the length of the standoffs holding the design together: they are simply too long, making the drivetrains much wider than they need to be. We will most likely finish discussing exactly what we want to do tomorrow.
+
+Pervious Base/Base from yesterday:
+{{.\old_base.PNG}}
