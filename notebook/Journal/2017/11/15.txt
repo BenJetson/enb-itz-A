@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-11-30T16:14:02-05:00
+
+====== Wednesday, Nov 15, 2017 ======
+AUTHOR: @author_UNKNOWN
+
+===== Summary =====
+
+* Attached modified sprockets to motor axle.
+* Deconstructed Base
+* Built new Base
+* Modified gearbox
+
+
+===== Journal =====
+
+Today we picked up right where we left off yesterday by attaching the modified sprockets to the axle controlled by the motors, not on the arm itself. We did this with confidence now that Garrett was back and he had thoroughly explained his reasoning and vision.
+We also decided to fully destroy our old drive mechanisms as they were way too wide. The clunky design has been replaced with a version containing much shorter standoffs and less spacers to increase the room we can use on the inside of our robot.
+The final design change we made today consisted of modifying the gearbox yet again. Gearboxes require a lot of tweaks and adjustments to get just right, and today Louis shifted every axle, screw, and bearing up one row to increase the maneuverability of the claw. This was a problem because we made a misjudgement when cutting, and the c-channel used for the gearbox is too short. As a quick fix, we attached another, shorter c-channel to the top of the gearbox to add one more hole for a bearing. However, the problem with this alteration is that it blocks the right side of the claw from fully retracting into its dormant position. By moving each element up one row, we increased the number of holes available and circumvented the problem.
+
+PHOTO: We need some specific shots of the new drivetrain and gearbox.

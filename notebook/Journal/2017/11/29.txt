@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-11-30T16:10:30-05:00
+
+====== Wednesday, Nov 29, 2017 ======
+AUTHOR: @cdunla6940 
+
+===== Summary =====
+
+* Shoulder spacing
+* Single axle through wrist
+* We re-made our base
+
+===== Journal =====
+
+Today we had to edit our shoulder spacing. They were too close together so editing the spacing was very beneficial to having our robot work. We also put a single axle through the wrist of the robot. We obviously need an axle so we added one. Luckily, we didn’t need a high strength axle to do this, so we didn’t need to drill holes in our c-channels. Lastly, we finished our base again. It is now re-made for our needs. The main goal is to get the perfect size for a pneumatic mobile goal lift.
+
+PHOTO: Spacing shoulder
