@@ -12,4 +12,6 @@ AUTHOR: @author_UNKNOWN
 
 ===== Journal =====
 
-Today we started our code for our robot. This code will let us control our robot. It'll make our robot's motors move, which means that we can move our robot's wheels and move our robot's arm and claw. The reason why we need this code is so that we can operate our robot without this code we wouldn't be able to even move the robot
+Today we started our code for our robot. This code will let us control our robot. It'll make our robot's motors move, which means that we can move our robot's wheels and move our robot's arm and claw. The reason why we need this code is so that we can operate our robot; without this code we wouldn't be able to even move the robot. Next, we took the sprockets from the inside of our arm and put them on the outside so that the inside wouldn't be so cramped. This is a simple change that just makes building the robot much easier.
+
+PHOTO: outside sprockets
