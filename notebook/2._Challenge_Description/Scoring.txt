@@ -22,4 +22,5 @@ There are certain actions that aren't scored in the Vex 2017-18 game, In the Zon
 ===== Basic Strategies =====
 There are some basic strategies you might want to look out for. One is very simple try to move the mobile goal in it a zone before stacking any cones onto it. This is useful for many things: It ensures that cones won't fall down, I gives you less of a chance rushing to get the mobile goal to a zone, which could possibly increase the chances of you holding onto it when time runs out, cones will help go to the objective of getting the most cones in a zone. Also you should aim for parking your robot on one of the tiles, that extra 2 points can make a difference between a win and a loss. 
 
-
+Not Scored Cones:
+{{.\qwertyuiopasdfghjklzxcvbnm.JPG?width=250}}
