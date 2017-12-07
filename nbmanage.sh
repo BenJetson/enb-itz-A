@@ -264,7 +264,7 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 3 ]; then
     fi
 
     mkdir -p $template_path/
-    yes | cp -r ./templates/* $template_path/
+    yes | cp -r --parents ./templates/* $template_path/
 
     if [ $? -ne 0 ]; then
         spacer
