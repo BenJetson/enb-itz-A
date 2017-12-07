@@ -8,5 +8,5 @@ AUTHOR: @no_author
 
 Welcome to the wiki. This is a page that describes it all and says everything. 
 
-TODO: Add some info about the team here
-PHOTO: team photo from last year
+TODO: @bgodfr5236 Add some info about the team here
+PHOTO: @bgodfr5236 team photo from last year

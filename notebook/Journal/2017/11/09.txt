@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-11-09T17:08:28-05:00
+
+====== Thursday, Nov 09, 2017 ======
+AUTHOR: @author_UNKNOWN
+
+===== Summary =====
+
+* We finished our new base
+* We reinforceed one of our arm's axles
+* We drilled a hole in our sprockets
+
+===== Journal =====
+
+Today we finally finished our new base. Now that it’s big we don’t have to worry too much about a top-heavy robot, which means no tipping over. The other thing that we did was reinforcing an axle on our arm. Though it’s small if wasn’t done we wouldn’t be able to drill a hole into our sprockets. This is important because previously, our axle wouldn’t move as nice as we wanted it to move. Now with a drilled hole it should move freely. 
+
+PHOTO: @cdunla6940 Completed base, drilled sprocket.

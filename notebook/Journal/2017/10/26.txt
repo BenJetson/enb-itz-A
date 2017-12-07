@@ -12,8 +12,7 @@ AUTHOR: @iwaldr0912
 * Came up with plans to attach gearbox/claw to arm.
 
 ===== Journal =====
-Today we focused on the gearbox. We furthered progress with it by removing unnecessarily wide c-channels and replacing them with 2x12 aluminum c-channels. We are making the entire claw mechanism out of aluminum to make it less of a load on the motors that will be lifting the arm. We have limited aluminum parts, so we need to use it sparingly.
+Today we focused on the gearbox. We furthered progress with it by removing unnecessarily wide c-channels and replacing them with 2x12 aluminum c-channels. We are making the entire claw mechanism out of aluminum to make it less of a load on the motors that will be lifting the arm. We have limited aluminum parts, so we need to use it sparingly. We also fixed the length of our chin on the left side. Before this change, our wheel was too slow, for we had too many chain links. All we needed was to take one out. This was a simple but important change. Lastly, we decided to figure a way to attach our claw and gearbox. We had many ideas but we were undecisive in the end, so we will pick up with this next practice.
 
 
-FIXME: @iwaldr0912 incomplete entry
 PHOTO: gearbox, sketches

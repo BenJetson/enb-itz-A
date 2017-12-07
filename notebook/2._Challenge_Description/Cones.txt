@@ -4,8 +4,9 @@ Creation-Date: 2017-10-13T10:17:34-04:00
 
 ====== Cones ======
 Tuesday, May 02, 2017
-AUTHOR: @author_UNKNOWN 
+AUTHOR: @cdunla6940
 
-TODO: Add some info about cones here, dimensions, etc
-PHOTO: Cone w/ dimensions
-PHOTO: Cone on field
+Vex's 2017-18 game, In the Zone, primarly has each alliance going around picking up cones and stacking them on mobile goals or stationary goals. This is worth two points per fully stacked cone. The details of these cones are very basic: they're yellow, they have the diameter of 5.68 in., and they are 6.82 in. tall. 
+
+Cone's diameter: 							   Cone's Hieght:
+{{.\coneyo.png}}{{.\conyolo.PNG}}
