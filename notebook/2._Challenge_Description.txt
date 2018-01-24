@@ -10,8 +10,8 @@ AUTHORS: @cdunla6940, @bgodfr5236, @iwaldr0912
 This season's VRC game is called //In The Zone//. The objective of the game is to earn more points than the opposing alliance by moving //Mobile Goals// into //Scoring Zones// and by stacking //Cones//. Additional bonuses are available for other actions such as //Parking//, //Autonomous//, and //Highest Stacks//. This game is a very different challenge from previous seasons, but shares the same basic ruleset as previous games.
 
 ===== The Field =====
-On the field, there are total of 80 cones and 10 mobile cones (5 red and 5 blue). There also two stationary goals, one for each color. At opposite ends of the field, there are three //Scoring Zones//, one for each alliance. In the first //Zone//, //Mobile Goals// are worth 5 points, 10 points in the second, and //20 points in the last.//
-This year, the starting position for robots at the beginning of the match  in the 5 point //Scoring Zone//, the back of the robot touching the first pipe. After this, the autonomous period.
+On the field, there are total of 80 cones, 10 mobile goals (5 red and 5 blue), and two stationary goals (1 red and 1 blue). At opposite ends of the field, there are three //Scoring Zones//, one for each alliance. In the first //Zone//, //Mobile Goals// are worth 5 points, 10 points in the second, and //20 points in the last.//
+This year, robots will start in the 5 point //Zone// at the beginning of the match  in the 5 point //Scoring Zone//, the back of the robot touching the first pipe. After this, the autonomous period.
 TODO: @bgodfr5236 finish this
 
 ===== Autonomous and Driver Control Period =====
