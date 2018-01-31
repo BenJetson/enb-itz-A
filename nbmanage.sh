@@ -106,6 +106,8 @@ elif [ "$1" == "sync-repo" ]; then
     mode=2
 elif [ "$1" == "sync-templates" ]; then
     mode=3
+elif [ "$1" == "force-sync" ]; then
+    mode=10
 elif [ "$1" == "view" ]; then
     mode=4
 elif [ "$1" == "cd" ]; then
@@ -225,7 +227,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # synchronize changes with server
-if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 2 ]; then
+if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 2 ] || [ $mode -eq 10 ]; then
     section "CHECKOUT"
     git checkout master
 
@@ -242,6 +244,12 @@ if [ $mode -eq 0 ] || [ $mode -eq 1 ] || [ $mode -eq 2 ]; then
         spacer
         echo "ERROR: Git pull failed!"
         return 1 2>/dev/null; exit 1
+    fi
+
+    if [ $mode -eq 10 ]; then
+        section "FORCE PUSH"
+        git add .
+        git commit -m "FORCE COMMIT VIA NBMANAGE"
     fi
 
     section "PUSH"
