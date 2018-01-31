@@ -9,7 +9,7 @@ AUTHOR: @cdunla6940
 
 * Shoulder spacing
 * Single axle through wrist
-* We re-made our base
+* Re-made base
 
 ===== Journal =====
 

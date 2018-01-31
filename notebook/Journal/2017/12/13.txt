@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-03T17:26:33-05:00
+
+====== Wednesday, Dec 13, 2017 ======
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+
+* Configured/attached motors
+* Moved columns
+
+
+===== Journal =====
+Today we made some changes that were small but significant. The first of these changes was attaching and configuring the motors to the drive train. This was relatively easy and didn't take much time, in contrast to moving our columns. This task was grueling because it required meticulously taking the screws out of the columns, replacing the standoffs, and putting it all back together. We did get it done and kept the columns level in the process. 

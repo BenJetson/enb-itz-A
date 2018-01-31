@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-24T16:31:27-05:00
+
+====== Wednesday, Jan 24, 2018 ======
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+
+* Worked on the mobile goal lift
+* Added more .5 inch standoffs to columns
+* Added optical shaft encoders to drive train
+
+===== Journal =====
+
+This week officially began the race to the start of competition season. After not having practice for nearly a month due to Winter Break and snow days, we really need to make up for lost time, and we did this by immediately working on the mobile goal lift. Our design is a mechanism known as a 4-bar, which incorporates 4 short c-channels for vertical and horizontal movement. Our design has a simple tray made out of l-channels, as we call them, that is the right size for a mobile goal with a small amout of wiggle room for driver innacuracies. 
+In addition to this new structure, we added more half-inch standoffs to our columns to increase their rigidity and overall support strength. We may have to shift them around in the future or remove them to make room for more additions to the columns, such as the 4-bar, but for now we want to keep them.
+The final addition we made to our bot today were two optical shaft encoders, one on each side of the drive train. These sensors allow us to count how fast and in what direction the axle it is fixed to is rotating. This enables us to have a much easier time creating and tweaking autonomous code, as we can get precise measurements of exactly how fast our robot is moving and in what direction.
+
+//Beta Mobile Goal Lift//
+{{~\Documents\Robotics\Photos\1.24.18 Entry\20180124_172815.jpg?width=500}}
+
+//Mobile Goal Lift in (Rough) Position//
+{{.\20180124_172734.jpg?width=500}}
+
+//New Standoffs//
+{{.\20180124_161841.jpg?width=500}}
+
+//An Optical Shaft Encoder in Place//
+{{.\20180124_161846.jpg?width=500}}
+
+

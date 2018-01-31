@@ -15,5 +15,5 @@ AUTHOR: @iwaldr0912
 Today we finally finished building the claw. Consequently, our claw is now very lightweight. This is very useful, for our robot won't be as top-heavy as before. This means the robot won't fall down has much as it would originally. We also attached standoffs to help stabilize the back of the tower. Our robot obviously needed these standoffs to provide support to our robot so it won't break apart, and we can also add motors to our robot.
 
 
-Us putting standoffs on the pillar
-{{.\1018171613_HDR.jpg?width=250}}
+//Attaching standoffs to one of the pillars//
+{{.\1018171613_HDR.jpg?width=500}}

@@ -14,6 +14,5 @@ Creation-Date: 2017-10-11T17:05:16-04:00
 We decided to redesign our claw because our previous claw design was inefficient because of its weight and size. The new design includes a bent strip of steel with rubber bands attached on the outside by screws and bearing flats. Rubber bands will give our claw grip, which was used in our original design. With the redesign, the claw is lighter and can still pick up cones with ease. The new design resolves the weight issue we had with the old design, making it lighter and smaller. 
 We also moved the parallel bars supporting the motors and claw back to the back end of our base.  
 
-{{~\Downloads\20171012_164718.jpg?width=500}}
+{{.\Claw Mandible.jpg?width=500}}
 //One Mandible of the New Claw//
-MISSING: @iwaldr0912 photo wasn't attached!

@@ -13,4 +13,6 @@ AUTHOR: @iwaldr0912
 Today we went with the decision to move the outermost c-channels supporting the gearbox and claw to the inside of the base. We chose to do this because it will give the overall structure more support by being closer to the base and it will give us more horizontal space to work with. 
 We also took the gearbox apart again to make it more compact. This allows it to be lighter, and we placed the gears/axles in a straight line going across. The new gear ratio is 3:1 . 
 
-PHOTO: rear pillar assembly @iwaldr0912 !
+//Pillar Assembly//
+{{.\20170921_160230.jpg?width=500}}
+{{.\20170921_160236.jpg?width=500}}

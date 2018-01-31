@@ -21,7 +21,7 @@ In conclusion, we did a lot of tidying up today by making our robot more secure 
 //New Gearbox with Mandibles//
 
 {{~\Documents\Robotics\Photos\Skinny Gearbox Sketch1.jpg?width=350}}
-New Gearbox Sketch
+//New Gearbox Sketch//
 
 {{~\Documents\Robotics\Photos\Triangulars.jpg?width=500}}
 //Triangular Supports (Detached from Columns)//

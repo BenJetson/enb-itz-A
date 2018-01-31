@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-24T16:31:40-05:00
+
+====== Friday, Jan 26, 2018 ======
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+
+* Teflon, teflon, and more teflon nuts!
+* Worked on 4-bar mobile goal lift
+* Moved battery mounts
+
+===== Journal =====
+
+Today was mainly a day of strengthing our robot. And that, of course, means replacing just about every nylock nut on the robot with the teflon variety. More specifically, we replaced every accessible nut on the cone-claw and every nylock on the left drive train. These locations were chosen because we think that they will rattle and get tossed about the most during use. This process takes time is more tedious than anything, sometimes requiring two sets of hands and 2+ minutes per nut. Although, it will most definitely pay off in the end, as it will greatly reduce the times we will have to replace and re-tighten nuts during a time-critical competition. After all, the more time we have at a competition, the more time we have for skills runs.  
+The 4-bar mobile goal lift is coming along at a slow but steady pace, which we will definitely have to increase next week. The main addition to the mechanism today was 2 high-strength gears to push an axle through. These gears add both stability and functionality to our bot, as they are the main turning point of the structure. A secondary addition was, you guessed it, teflon nuts.
+Another minor update was main to the columns today in the form of moving the main and backup battery mounts to the opposite side of the columns to make room for the 4-bar gear mechanism that will be added next week.
+Speaking of next week, it really needs to be focused on driver practice and testing. We will only have 3 practices until our first competition, and we need every mechanism to be sound and working with a decent failure rate.
+
+//Swapping out nylock nuts for tougher teflon on the left drive train//
+{{~\Documents\Robotics\Photos\1.26.18 Entry\20180126_170025.jpg?width=500}}
+
+//Same action on the claw//
+{{~\Documents\Robotics\Photos\1.26.18 Entry\20180126_170056.jpg?width=500}}
+
+//Moving the main battery mount//
+{{~\Documents\Robotics\Photos\1.26.18 Entry\20180125_160406.jpg?width=500}}
+
+ 
+
