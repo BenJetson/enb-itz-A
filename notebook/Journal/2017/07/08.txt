@@ -11,4 +11,4 @@ AUTHOR: @author_UNKNOWN
 
 ===== Journal =====
 
-For our first summer practice we started 
+For our first summer practice we started to build the base
