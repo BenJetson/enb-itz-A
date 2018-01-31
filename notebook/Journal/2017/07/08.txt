@@ -3,12 +3,16 @@ Wiki-Format: zim 0.4
 Creation-Date: 2017-10-13T09:53:38-04:00
 
 ====== Saturday, Jul 08, 2017 ======
-AUTHOR: @author_UNKNOWN
+AUTHOR: @iwaldr0912
+
+PHOTO: sketches, design ideas, taking old base apart
 
 ===== Summary =====
 
-* Started to make the base
+* Started brainstorming & discussing drive train designs
+* Disassembled old base
+* Started building drive train
 
 ===== Journal =====
 
-For our first summer practice we started to build the base
+Today was focused on getting our old base taken apart. We had a 45-degree omniwheel design, which we will be discarding this year in favor of an updated and more clean (literally) design. We want to use a square design that incorporates two separate drive trains connected by a bar or plate of some sort. This design will give us more room for mechanisms to pick up mobile goals and cones. We hope to further develop this design as the summer meetings continue.

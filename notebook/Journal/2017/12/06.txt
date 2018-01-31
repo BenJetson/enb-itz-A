@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-12-11T08:51:54-05:00
+
+====== Wednesday, Dec 06, 2017 ======
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+* Adjusted standoff size on columns
+* Adjusted standoff size in the middle of the arm
+
+
+===== Journal =====
+
+We focused on small but relevant adjustments and optimizations on the robot, mainly changing standoff sizes to allow for more room overall. First, we exchanged the standoffs on the columns to the smaller, half-inch variety. Then, we changed the standoffs on the arm to a longer version. These changes and adjustments are small, but today was a day of limited attendance, so it was a good amount of progress.
+
+//Standoffs//
+{{.\20180124_161841.jpg?width=500}}
+
+
+

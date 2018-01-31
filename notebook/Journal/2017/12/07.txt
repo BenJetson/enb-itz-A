@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-12-11T08:52:17-05:00
+
+====== Thursday, Dec 07, 2017 ======
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+
+* Make a bullet list of actions taken here
+
+===== Journal =====
+
+Write a detailed description in paragraph form here. **Include pictures**!!
