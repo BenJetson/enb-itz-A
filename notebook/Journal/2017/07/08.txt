@@ -5,12 +5,10 @@ Creation-Date: 2017-10-13T09:53:38-04:00
 ====== Saturday, Jul 08, 2017 ======
 AUTHOR: @author_UNKNOWN
 
-BS-NEEDED: first summer meeting entry
-
 ===== Summary =====
 
-* Make a bullet list of actions taken here
+* Started to make the base
 
 ===== Journal =====
 
-Write a detailed description in paragraph form here. **Include pictures**!!
+For our first summer practice we started 
