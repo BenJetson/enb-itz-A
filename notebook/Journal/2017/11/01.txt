@@ -8,7 +8,10 @@ AUTHOR: @iwaldr0912
 
 ===== Summary =====
 * Attached claw to redesigned columns
+* Discussed claw arm mechanism
+* Discussed using pneumatics
 
 
 ===== Journal =====
-stuff things
+Today we finally got to put a lot of our hard work into action as we attached the claw the redesigned arms and columns. We have been working hard on this portion of the robot for a while now, and it feels good to have a tangible, put-together product. It's not all finished, though, as we still need to figure out how the arm will move independently of the axle it is attached to and what configuration we want to motors in. We furthered this discussion today with ideas and sketches, as seen below. Our plan right now is to have two motors on the end of the arm to control the claw, although that may change to one motor in the future to reduce weight and strain on the axle and other motors.
+In addition to these significant steps forward, we also discussed using pneumatics for our mobile goal lift, which seems like a pretty viable option. Pneumatic cylinders are great for just going in and out, on or off, which is exactly what we need in this mechanism. However, they could pose a problem in actually putting them together, as only two people on our team currently have a basic understanding of them. Pneumatics take a lot of time and effort to set up and test, and if one part fails, you basically have to start over due to the amount of parts that go into a succesful system. We'll see if we use them or if we have to resort to a basic motor apparatus.
