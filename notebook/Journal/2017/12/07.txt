@@ -10,8 +10,9 @@ PHOTO: whatever is required for this entry
 
 ===== Summary =====
 
-* Make a bullet list of actions taken here
+* We adjusted standoff size for the arm.
+* Made the hand smaller.
 
 ===== Journal =====
 
-Write a detailed description in paragraph form here. **Include pictures**!!
+The first thing we did is adjust the standoff size in the arm. Orginally, the standoff size was way too big so we need to cut the size in half. In the beginning, the size of these standoffs were one inch. We then converted this to one half of and inch. This will make sure that we meet the size requirements of eighteen inches by eighteen inches by eighteen inches. We also made the hand smaller. The before was just a little too big and it was hard to pick up regular cones. With the new size change we will now be able to pick up regular cones easier and we will also be able to accuratly place these cones on a mobile goal.

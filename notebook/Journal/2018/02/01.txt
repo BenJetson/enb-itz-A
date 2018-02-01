@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-01T16:44:31-05:00
+
+====== Thursday, Feb 01, 2018 ======
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+
+* Fixed alignment on drive trains
+* braced mobile goal lift
+
+===== Journal =====
+
+Write a detailed description in paragraph form here. **Include pictures**!!

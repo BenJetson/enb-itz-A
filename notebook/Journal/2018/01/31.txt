@@ -7,8 +7,10 @@ AUTHOR: @author_UNKNOWN
 
 ===== Summary =====
 
-* Added t
+* Added teflon nuts everywhere
+* Attached arm
+* Continued work on the mobile-goal-lift.
 
 ===== Journal =====
 
-Write a detailed description in paragraph form here. **Include pictures**!!
+The first thing that we did this practice was to make our robot more sturdy by replacing some nuts with teflon nuts. Although teflon nuts are harder to put on than regular nuts, it still made our base, arm, and mobile-goal-lift way more sturdy. Next, we reattached the arm, which was previously off the robot. This didn’t take us long at all, and only eat up a bit of our time. The last thing that we did was continue progress on our mobile-goal-lift. More gears were added on and the mobile-goal-lift, in return, is almost finished. We attached the mobile-goal-lift, but we have still have been getting problems. The lift won't fully rise, so we'll fix that tommorrow.
