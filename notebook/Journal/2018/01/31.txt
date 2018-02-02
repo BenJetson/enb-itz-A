@@ -3,13 +3,13 @@ Wiki-Format: zim 0.4
 Creation-Date: 2018-02-01T08:38:15-05:00
 
 ====== Wednesday, Jan 31, 2018 ======
-AUTHOR: @author_UNKNOWN
+AUTHOR: @cdunla4940
 
 ===== Summary =====
 
 * Added teflon nuts everywhere
 * Attached arm
-* Continued work on the mobile-goal-lift.
+* Continued work on the mobile-goal-lift
 
 ===== Journal =====
 
