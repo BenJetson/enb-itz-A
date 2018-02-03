@@ -16,7 +16,11 @@ AUTHOR: @cundla6940
 ===== Journal =====
 We started to come up with more ideas today. The first idea we came up with was a spike arm. The idea of the spike arm is to use one standoff to hook onto the regular cone’s hole on the top of the cone. We decided that this was not a good idea because it can’t pick up mobile goals and it can’t precisely put regular cones down. The next design is the spatula design which involves a flat surface that goes under the mobile goals and puts it in the 20 point zones. This does give us a good amount of points, but It can’t lift regular cones, which is big part of scoring. We also talked about the Compression Scissor lift which is a handmade clawbot, but is lift with a reverse double-four-bar. This was a good idea plausible, because it could precisely place cones down. Still, it could not pick up mobile goals easily. We also decide that we were going to use omni-wheels today.
 
-PHOTO: Spike Arm Sketch
-PHOTO: Spatula Arm Sketch
-PHOTO: Compression Scissor Lift
-PHOTO: Just a picture of omni wheel on floor
+
+{{./spike.png}}
+
+{{./spatula.png}}PHOTO: Spatula Arm Sketch
+
+{{./skizor.png}}
+
+
