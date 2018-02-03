@@ -3,14 +3,16 @@ Wiki-Format: zim 0.4
 Creation-Date: 2017-10-13T09:52:08-04:00
 
 ====== Tuesday, Sep 05, 2017 ======
-AUTHOR: @author_UNKNOWN
+AUTHOR: @iwaldr0912
 
-MISSING: entry for first meeting of the school year.
 
 ===== Summary =====
 
-* Make a bullet list of actions taken here
+* Meeting new people
+* Discussing ideas
+* Getting back into the swing of things
 
 ===== Journal =====
 
-Write a detailed description in paragraph form here. **Include pictures**!!
+Today was rather slow in terms of progress, as we had some new members and had to show them the ropes. However, that didn't stop us from continuing to work on the base. We discussed how far apart the wheels may need to be how much space we should leave for the mobile goal in the center. 
+In addition, we discussed new ideas for the base and other parts such as the lifting mechanisms and how we will go about supporting them. 

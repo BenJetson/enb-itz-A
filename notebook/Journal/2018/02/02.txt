@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-02T10:07:06-05:00
+
+====== Friday, Feb 02, 2018 ======
+AUTHOR: @author_UNKNOWN
+
+===== Summary =====
+
+* Make a bullet list of actions taken here
+
+===== Journal =====
+
+Write a detailed description in paragraph form here. **Include pictures**!!

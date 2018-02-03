@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-24T16:31:34-05:00
+
+====== Thursday, Jan 25, 2018 ======
+AUTHOR: @iwaldr0912
+
+PHOTO: motor plates, new axles
+
+===== Summary =====
+
+* Cut motor plates
+* Swapped out front drive train axles
+* Added bearings to drive train axles
+
+===== Journal =====
+Today was all about making minor improvements to our robot. The first thing that took place was cutting and filing the back motor plates to a size that allowed them to fit within the 18'x18'x18' size requirement. This was a necessary task because we wouldn't be able to fit our drive train motors inside of our robot any other way. 
+The second minor improvement was swapping out our front drive train axles for some that were just the right length and not a tad bit over. This needed to happen so that we could eventually fit our mobile goal lift inside of our drive train, as the current axles were too long. Instead of cutting axles and possibly wasting material, we found some that were just the right length and used a simple technique to slide them through without taking the entire drive train apart. This involves slowly and carefully pushing the old axle through every spacer, wheel, and shaft collar with the new axle. This method allows for speedy transfer of axles without much hassle. Another minor attachment that we made today was bearings on all drive train axles. These allow for a smooth rotation, and are very necessary on any axle going through a square hole of any kind.

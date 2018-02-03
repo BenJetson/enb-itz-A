@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-01T16:44:31-05:00
+
+====== Thursday, Feb 01, 2018 ======
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+
+* Fixed alignment on drive trains
+* Braced mobile goal lift
+* Re-created mobile goal lift out of aluminum
+
+===== Journal =====
+
+Today was a pretty hectic day as we only had two practices left before out first competition, but we still made it productive. Our biggest goal for today was to finish the mobile goal lift, and we got very close. We ran into a few snags with the rigidity being a large problem along with the strength of the motors. The main problem is that we are wasting a lot of energy due to bending and flexing pieces of metal and not making the best use of bearings for axles. We attempt to fix this issue by bracing the small columns to our central ones via strips of steel and by adding 2 more columns, 1 on either side, to add more support for the mechanism and its axles. This will most likely be done tomorrow, as we are all tired and ready to take a break
+We also started to re-create our lift out of aluminum to hopefully allieviate the issue of it not lifting up its own weight. We plan to split up this task among ourselves to relieve some of the stress and make more efficient use of our limited time. Garrett will re-create the actual lift out of l-channels and Ben and Ian will work on the extra columns and 4-bar tomorrow.

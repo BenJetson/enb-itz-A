@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-03T16:14:28-05:00
+
+====== Thursday, Dec 14, 2017 ======
+AUTHOR: @iwaldr0912
+
+===== Summary =====
+
+* Attached motor to claw
+* Fixed some base spacing
+* Changed motor axles
+* Investigated pneumatics
+
+===== Journal =====
+Our number one priority today was to attach a motor to our claw. We successfully did so and wired it up. Also, we fixed some spacing issues on the base that prevented holes from lining up. We did this to make it easier to attach parts in the future and to make it uniform size-wize. In addition to these changes, we swapped out the axles holding the drive train motors for larger ones as the previous sizes were unable to meet our needs. They were too short and we made them longer for future expansion. The final thing we did today was investigated the use of pneumatics for our mobile goal pickup system. Even though we may end up not using pneumatics, they were a pretty viable option and we may end up using them in a future robot.
+In summation, we made changes to our robot that allowed for future expansion and ease-of-use. 
+
+{{~\Documents\Robotics\Photos\NewBaseSpacing.jpg?width=500}}
+//New base spacing/motor placement//
+
+{{~\Documents\Robotics\Photos\SideBase.jpg?width=400}}
+//New Spacing from a side view//
+
+
