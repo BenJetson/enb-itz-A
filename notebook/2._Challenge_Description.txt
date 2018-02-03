@@ -11,11 +11,10 @@ This season's VRC game is called //In The Zone//. The objective of the game is t
 
 ===== The Field =====
 On the field, there are total of 80 cones, 10 mobile goals (5 red and 5 blue), and two stationary goals (1 red and 1 blue). At opposite ends of the field, there are three //Scoring Zones//, one for each alliance. In the first //Zone//, //Mobile Goals// are worth 5 points, 10 points in the second, and //20 points in the last.//
-This year, robots will start in the 5 point //Zone// at the beginning of the match  in the 5 point //Scoring Zone//, the back of the robot touching the first pipe. After this, the autonomous period.
-TODO: @bgodfr5236 finish this
+This year, robots will start in the 5 point //Zone// at the beginning of the match  in the 5 point //Scoring Zone//, the back of the robot touching the first pipe.
 
-===== Autonomous and Driver Control Period =====
-An autonomous period begins at the start of each match, where robots try to score the most points in 15 seconds. During the autonomous period drivers or anyone else near the field are not to touch or control the robot. The robot should be controlled by code during the autonomous period. After the 15 seconds the referees will determine which team gained the most points. The team with most points will be granted a 10 points as a bonus. After the autonomous there'll be a driver control period. This lasts 1 minute and 45 seconds. Here the drivers will have control of the robot and try to score points until time runs out. 
+===== Match Timing =====
+An autonomous period begins at the start of each match, where robots try to score the most points in 15 seconds. During the autonomous period drivers are not to touch or control the robot. The robot should be controlled purely by code during the autonomous period. After the 15 seconds the referees will determine which team gained the most points and will be granted a 10 points as a bonus. After the autonomous there'll be a driver control period. This lasts 1 minute and 45 seconds. Here the drivers will have control of the robot and try to score points until time runs out. 
 
 
 {{./pasted_image.png?width=700}}
