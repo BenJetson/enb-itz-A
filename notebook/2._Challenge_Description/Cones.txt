@@ -6,7 +6,7 @@ Creation-Date: 2017-10-13T10:17:34-04:00
 Tuesday, May 02, 2017
 AUTHOR: @cdunla6940
 
-Vex's 2017-18 game, In the Zone, primarily has each alliance going around picking up cones and stacking them on mobile goals or stationary goals. This is worth two points per fully stacked cone. The details of these cones are very basic: they're yellow, they have the diameter of 5.68 in., and they are 6.82 in. tall. 
+On the field, there are a total of 80 yellow cones, which can be placed in any orientation. The have a diameter of 5.68 inches, and are 6.82 inches high.  These will present an interesting challenge for robots to pick up due to the various staggered grooves on the side. They also have a hole at the top, which could potentially give robots something to latch onto, but this would be difficult to achieve in practice.
 
 Cone's diameter: 							   Cone's Hieght:
 {{.\coneyo.png}}{{.\conyolo.PNG}}

@@ -9,11 +9,11 @@ AUTHOR: @cdunla6940
 | Description                                     | Points Earned |
 |:------------------------------------------------|:--------------|
 | Stacking a cone on a mobile or stationary goal. | 2             |
+| Parked robot                                    | 2             |
+| Alliance with the most cones stacked in a zone  | 5             |
 | Mobile goal placed in 5 pt zone                 | 5             |
 | Mobile goal placed in 10 pt zone                | 10            |
 | Mobile goal placed in 20 pt zone                | 20            |
-| Parked robot                                    | 2             |
-| Alliance with the most cones stacked in a zone  | 5             |
 
 
 ===== Non-Scored Actions =====
