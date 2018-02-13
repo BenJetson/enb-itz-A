@@ -8,7 +8,7 @@ AUTHOR: @cdunla6940
 
 There are a total of 8 mobile goals on the field, 4 red and 4 blue.. Mobile goals are 9.6 inches high, have an outer diameter of 10 inches, and weigh approximately 3.7 pounds. Cones can be stacked on top of mobile goals to earn points 2 points. Placing these mobile goals in the 5 pt, 10 pt, and 20 pt zones will yield the respective amount of points. 
 
-Picking up mobile goals will present a major challenge for robots. These are potentially the highest scoring objects in the whole game, so being able to maneuver them well will be critical to success in matches. Firstly, mobile goals are quite heavy. Mechanisms that pick
+Picking up mobile goals will present a major challenge for robots. These are potentially the highest scoring objects in the whole game, so being able to maneuver them well will be critical to success in matches. Firstly, mobile goals are quite heavy. Mechanisms that pick up mobile goals will require a significant amount of torque to 
 
 Mobile goal's dimensions:
 {{.\Screen Shot 2017-04-26 at 2.21.13 PM.png?width=300}}
