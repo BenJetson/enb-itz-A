@@ -20,8 +20,9 @@ AUTHOR: @cdunla6940
 ===== Non-Scored Actions =====
 When  trying to achieve points, it is important to be aware of certain restrictions that may cause a game object not to be scored. Firstly, robots cannot be touching scoring objects at the end of a match. If a robot is still touching a cone, stack of cones, or a mobile goal at the end of the match, no points are awarded. This is important to consider especially when creating autonomous programs — if your robot is still touching a scoring object when the autonomous round is over, your team may lose its chance to win the autonomous bonus. Secondly, mobile goals must be fully seated inside their respective zones and not be resting on the bars between to achieve maximum points. Drivers will need to exercise caution and dexterity when placing goals.
 
-===== Basic Strategies =====
-We predict that most robots this season will focus on moving mobile goals, as they are the highest scoring object in the game. If your robot can move mobile goals efficiently, you can easily 
+{{./qwertyuiopasdfghjklzxcvbnm.JPG?width=400}}
 
-Not Scored Cones:
-{{.\qwertyuiopasdfghjklzxcvbnm.JPG?width=250}}
+===== Basic Strategies =====
+We predict that most robots this season will focus on moving mobile goals, as they are the highest scoring object in the game. If your robot can move mobile goals efficiently, you can easily score 50 points. We also predict that some teams will be taking advantage of the highest stack bonus, which is 5 points per respective zone. If the other team can't score cones, but at least one robot on your alliance can, this could be an easy way to earn 5-20 points quickly. 
+
+Once we attend a tournament and see more match videos uploaded online, we'll be able to better predict what strategies are viable.
