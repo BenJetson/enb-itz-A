@@ -6,21 +6,22 @@ Creation-Date: 2017-10-13T10:18:42-04:00
 Tuesday, May 02, 2017
 AUTHOR: @cdunla6940
 
-| Description                                     | Points Earned |
-|:------------------------------------------------|:--------------|
-| Stacking a cone on a mobile or stationary goal. | 2             |
-| Parked robot                                    | 2             |
-| Alliance with the most cones stacked in a zone  | 5             |
-| Mobile goal placed in 5 pt zone                 | 5             |
-| Mobile goal placed in 10 pt zone                | 10            |
-| Mobile goal placed in 20 pt zone                | 20            |
+| Description                                  | Points Earned |
+|:---------------------------------------------|:--------------|
+| Stacked cone on a mobile or stationary goal. | 2             |
+| Parked robot                                 | 2             |
+| Highest Stack (by Zone)                      | 5             |
+| Mobile goal placed in 5 pt zone              | 5             |
+| Mobile goal placed in 10 pt zone             | 10            |
+| Mobile goal placed in 20 pt zone             | 20            |
+| Autonomous Bonus                             | 10            |
 
 
 ===== Non-Scored Actions =====
-There are certain actions that aren't scored in the Vex 2017-18 game, In the Zone. If you are touching a mobile goal when time runs out, then you don't get the points for the mobile goal's placement nor the amount of cones stack on said mobile goal. This can also majorly effect your chances at getting highest stack. Cones also don't count as stacked if they aren't fully stacked on the stationary or mobile goal. Also make sure that you lay only 1 mobile goal in the 20 pt. zone. You can't have more than one.
+When  trying to achieve points, it is important to be aware of certain restrictions that may cause a game object not to be scored. Firstly, robots cannot be touching scoring objects at the end of a match. If a robot is still touching a cone, stack of cones, or a mobile goal at the end of the match, no points are awarded. This is important to consider especially when creating autonomous programs — if your robot is still touching a scoring object when the autonomous round is over, your team may lose its chance to win the autonomous bonus. Secondly, mobile goals must be fully seated inside their respective zones and not be resting on the bars between to achieve maximum points. Drivers will need to exercise caution and dexterity when placing goals.
 
 ===== Basic Strategies =====
-There are some basic strategies you might want to look out for. One is very simple try to move the mobile goal in it a zone before stacking any cones onto it. This is useful for many things: It ensures that cones won't fall down, I gives you less of a chance rushing to get the mobile goal to a zone, which could possibly increase the chances of you holding onto it when time runs out, cones will help go to the objective of getting the most cones in a zone. Also you should aim for parking your robot on one of the tiles, that extra 2 points can make a difference between a win and a loss. 
+We predict that most robots this season will focus on moving mobile goals. They
 
 Not Scored Cones:
 {{.\qwertyuiopasdfghjklzxcvbnm.JPG?width=250}}

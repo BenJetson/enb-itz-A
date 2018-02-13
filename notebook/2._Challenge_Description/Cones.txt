@@ -6,7 +6,8 @@ Creation-Date: 2017-10-13T10:17:34-04:00
 Tuesday, May 02, 2017
 AUTHOR: @cdunla6940
 
-On the field, there are a total of 80 yellow cones, which can be placed in any orientation. The have a diameter of 5.68 inches, and are 6.82 inches high.  These will present an interesting challenge for robots to pick up due to the various staggered grooves on the side. They also have a hole at the top, which could potentially give robots something to latch onto, but this would be difficult to achieve in practice.
+On the field, there are a total of 80 yellow cones, which can be placed in any orientation. The have a diameter of 5.68 inches, and are 6.82 inches high.  
 
-Cone's diameter: 							   Cone's Hieght:
+These will present an interesting challenge for robots to pick up due to the various staggered grooves on the side. They also have a hole at the top, which could potentially give robots something to latch onto, but this would be difficult to achieve in practice.
+
 {{.\coneyo.png}}{{.\conyolo.PNG}}
