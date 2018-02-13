@@ -7,17 +7,19 @@ Tuesday, May 02, 2017
 AUTHORS: @cdunla6940, @bgodfr5236, @iwaldr0912
 
 ===== Game Objective and Overview =====
-This season's VRC game is called //In The Zone//. The objective of the game is to earn more points than the opposing alliance by moving //Mobile Goals// into //Scoring Zones// and by stacking //Cones//. Additional bonuses are available for other actions such as //Parking//, //Autonomous//, and //Highest Stacks//. This game is a very different challenge from previous seasons, but shares the same basic ruleset as previous games.
+This season's VRC game is called //In The Zone//. The objective of the game is to earn more points than the opposing alliance by moving //Mobile Goals// into //Scoring Zones// and by stacking //Cones//. Additional bonuses are available for other actions such as //Parking//, //Autonomous//, and //Highest Stacks//. This game is a very different challenge from previous seasons, but shares the same basic rule set as previous games.
 
 ===== The Field =====
 On the field, there are total of 80 cones, 10 mobile goals (5 red and 5 blue), and two stationary goals (1 red and 1 blue). At opposite ends of the field, there are three //Scoring Zones//, one for each alliance. In the first //Zone//, //Mobile Goals// are worth 5 points, 10 points in the second, and //20 points in the last.//
 This year, robots will start in the 5 point //Zone// at the beginning of the match  in the 5 point //Scoring Zone//, the back of the robot touching the first pipe.
 
+{{./pasted_image.png?width=700}}
+
 ===== Match Timing =====
 An autonomous period begins at the start of each match, where robots try to score the most points in 15 seconds. During the autonomous period drivers are not to touch or control the robot. The robot should be controlled purely by code during the autonomous period. After the 15 seconds the referees will determine which team gained the most points and will be granted a 10 points as a bonus. After the autonomous there'll be a driver control period. This lasts 1 minute and 45 seconds. Here the drivers will have control of the robot and try to score points until time runs out. 
 
-
-{{./pasted_image.png?width=700}}
+===== Cone Loading =====
+Drivers have a few cones outside the field available to load into robots. At the start of each match, one cone is available per robot as a //Preload//. These preloads must be touching the robot and within the bounds of the field perimeter. There are an additional 12 cones per alliance which drivers may introduce onto a loader platform at any point during a match, keeping in mind that robots cannot touch a cone while a human is still touching it
 
 
 

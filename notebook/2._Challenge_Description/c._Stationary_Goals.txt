@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-12T22:28:23-05:00
+
+====== Stationary Goals ======
+
+Stationary goals are 24 inches (2 feet) high total, with the cone platform starting at 19.6 inches from the ground. They have a slanted base with an outer diameter of 8 inches and a diameter of 2.38 inches at the shaft.
+
+When designing cone stacking mechanisms, teams will need to consider whether or not they want to be able to stack on top of stationary goals. They are significantly taller compared to mobile goals, and achieving tall stacks on top of these will certainly be difficult. The slanted base may also limit how close robots can get to the stationary goal, which may or may not be advantageous.
+
+{{./Screenshot from 2018-02-12 22-29-01.png}}
