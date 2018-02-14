@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2017-05-02T16:45:34-04:00
 
-====== 3. Team Goals ======
+====== 1. Team Goals ======
 Tuesday, May 02, 2017
 AUTHOR: @scoman5658, @iwaldr0912 
 
