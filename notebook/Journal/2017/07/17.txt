@@ -13,7 +13,7 @@ AUTHOR: @iwaldr0912
 
 ===== Journal =====
 
-The drive train is coming along smoothly. We added the sprocket-and-chain system today, which, as explained in last Monday's entry, will allow us to use only two motors for the drive train instead of 4. We aren't sure exactly how far apart the wheels need to be, so the setup is temporary for now. With the progress we've made, however, we can save a lot of time during the school year.
+The drive train is coming along smoothly. We added the sprocket-and-chain system today, which, as explained in last Monday's entry, will allow us to have more room up front for a lifting mechanism. We aren't sure exactly how far apart the wheels need to be, so the setup is temporary for now. Also, we are building the base out of steel to increase rigidity and stability while zipping around the field, as we believe that this will be an important quality to have. With the progress we've made, however, we can save a lot of time during the school year.
 We also continued to brainstorm and discuss ideas for the lift mechanisms. As of right now, we want to incorporate two, one for mobile goals and one for cones. The cone lifter will pick up cones from behind the robot and place them onto mobile goals on the front. This will require us to pick up mobile goals first and stack second. We believe this strategy will allow us to score many points and will allow us to be better than the competition.
 
 //The Base - Work in Progress//

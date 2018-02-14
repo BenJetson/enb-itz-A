@@ -7,13 +7,14 @@ AUTHOR: @cdunla6940
 
 ===== Summary =====
 
-* We started to re-make the gear box for the claw
-* We started to build the left pillar of our robot.
+* Started to re-make the gear box for the claw
+* Started to build the left pillar of our robot.
 	* This will connect to our arm which will connect to our claw.
 
 ===== Journal =====
 
-Today, we started to realize that we need to finally connect our claw to our gear box. To do this we had to take apart our gear box and re-assemble it. We took the shaft collars off and took the c-channel off too. We then moved the gears in different spots so the claw would be able to fit or attach to the gear box. We didn't finish this assignment today, but tomorrow we should have it done. While have of us worked on the gear box, the other half worked on making an arm. We started to make a pillar at the back of our robot. This connects to our arm. This will be a mechanism that grabs a regular cone with a claw and pulls it over the pillar and puts it a the front, which is where our mobile goal intake will be.
+Today, we had the realization that our claw must be connected to our gear box. To do this we had to take apart our gear box and re-assemble it using a different gear combination and smaller c-channels. We took the shaft collars off and took the extra c-channel off too. We then moved the gears into different positions so the claw would be able to fit or attach to the gear box. We didn't finish this task today, but tomorrow it should be completed in full. 
+We decided to divide and conquer to work on two important parts at the same time: the gear box and the arm. We started to make a pillar at the back of our robot, which connects to our arm. This mechanism will grab a regular cone with a claw, pull it over the pillars, and place it on a grabbed mobile goal at the front. This design is solid and dummy-proof, but will require a lot fine tuning and careful building.
 
 {{.\1004171735_HDR.jpg?height=500}}
 //Part of the arm//
