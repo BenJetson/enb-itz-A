@@ -14,14 +14,17 @@ AUTHOR: @cundla6940
 	* Omni Wheels
 
 ===== Journal =====
-We started to come up with more ideas today. The first idea we came up with was a spike arm. The idea of the spike arm is to use one standoff to hook onto the regular cone’s hole on the top of the cone. We decided that this was not a good idea because it can’t pick up mobile goals and it can’t precisely put regular cones down. The next design is the spatula design which involves a flat surface that goes under the mobile goals and puts it in the 20 point zones. This does give us a good amount of points, but It can’t lift regular cones, which is big part of scoring. We also talked about the Compression Scissor lift which is a handmade clawbot, but is lift with a reverse double-four-bar. This was a good idea plausible, because it could precisely place cones down. Still, it could not pick up mobile goals easily. We also decide that we were going to use omni-wheels today.
+The first idea we came up with today was a spike arm. The idea of the spike arm is to use one standoff to hook onto the hole at the top of the cone. This would be very easy to build and maintain, but has some drawbacks. Firstly, the cone must be in exactly the right position to grab it. The cone can only be picked up when the hole is facing the robot. With cones placed randomly on the field, this wouldn't be efficient. Secondly, it isn't a very precise placement mechanism. It would be very hard for the driver to control exactly where cones went when the arm lowered.  
 
 {{./spike.png}}
 
+The next design we came up with was the spatula design, which involves a flat surface that goes under the mobile goals and lifts them up. If we could get accurate control on this, it would be a very easy way to pick up a mobile goal. We have concerns though that it might not be able to drop mobile goals into the 20 point zone because of the square shape and inability to dump accurately.  
 {{./spatula.png}}
+
+The third idea we had was a compression-style scissor lift. This could pick up mobile goals from the side and cones from the top. Plus, if we used a 4-bar lift, it would be easy to build and control. However, in further testing, we discovered that trying to pick up mobile goals on the side wouldn't work well — the notches on the side are not deep enough to really grab it. We decided to archive this as a potential idea for a cone-only lift mechanism.
 
 {{./skizor.png}}
 
-{{./omnidrive.png}}
+We also decided that we would use omni-wheels for our robot in a tank-style configuration. These wheels are optimal for tanks as they allow movement in two directions, preventing skidding when turning. We may change our mind later if we need more traction to get over the starting and 20 point bars.
 
 {{./omwheel.jpg?width=400}}
