@@ -25,6 +25,3 @@ The third idea we had was a compression-style scissor lift. This could pick up m
 
 {{./skizor.png}}
 
-We also decided that we would use omni-wheels for our robot in a tank-style configuration. These wheels are optimal for tanks as they allow movement in two directions, preventing skidding when turning. We may change our mind later if we need more traction to get over the starting and 20 point bars.
-
-{{./omwheel.jpg?width=400}}
