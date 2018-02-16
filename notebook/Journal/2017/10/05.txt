@@ -11,7 +11,7 @@ AUTHOR: @cundla6940
 
 ===== Journal =====
 
-We started to build the second pillar. On the left, we started to place c-channels to hold the arm. We also placed gears to move the arm. After that, the right pillar was fully built. Next, we built the claw of our robot. Previously, we came close to connecting the gear box to our claw, but we ran out of time. Now though, we had plenty of time to attach the arm to the gear box. So we completed two things today including attaching the claw to the gear box and building the right pillar that will attach to our arm.
+We started to build the second pillar. On the left, we placed c-channels to hold the arm. We also placed gears to move the arm. After that, the right pillar was fully built. Next, we built the claw of our robot. Previously, we came close to connecting the gear box to our claw, but we ran out of time. Now though, we had plenty of time to attach the arm to the gear box. So we completed two things today including attaching the claw to the gear box and building the right pillar that will attach to our arm.
 
 {{.\20171005_171742.jpg?width=500}}
 //Right side of the pillar//
