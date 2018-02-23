@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-23T17:45:52-05:00
+
+====== Monday, Dec 04, 2017 ======
+AUTHOR: @bgodfr5236
+
+PLACEHOLDER IN DIGITAL NOTEBOOK:
+This entry was the programming entry that I added to the notebook already.
+
+
