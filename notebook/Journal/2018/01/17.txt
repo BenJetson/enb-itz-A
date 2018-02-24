@@ -19,6 +19,8 @@ Originally, we'd planned to use a two-motor claw design for greater torque, but 
 
 Also, I've added support for the upcoming mobile goal lift that we're planning to add. As of now, we expect it to use two motors and be controlled using the d-pad on the joystick. I've added control system and joystick support for now, and we can tweak speed values later as necessary.
 
+// code for this entry will have "jan" written in pencil somewhere on the front
+
 // insert main.c
 
 // insert control.c
