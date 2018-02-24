@@ -8,7 +8,17 @@ AUTHOR: @bgodfr5236
 ===== Summary =====
 
 * Codebase updates!
+	* Add support for upcoming mobile goal lift
+	* Reconfigure motors to more accurately match robot
 
 ===== Journal =====
 
-Write a detailed description in paragraph form here. **Include pictures**!!
+Today, I (Ben) worked on updating the code to match our current robot state.
+
+Originally, we'd planned to use a two-motor claw design for greater torque, but our current claw only has one. We found that as lightweight as cones are, a single motor was sufficient. I removed the associated motor declarations from the config and updated the references.
+
+Also, I've added support for the upcoming mobile goal lift that we're planning to add. As of now, we expect it to use two motors and be controlled using the d-pad on the joystick. I've added control system and joystick support for now, and we can tweak speed values later as necessary.
+
+// insert main.c
+
+// insert control.c
