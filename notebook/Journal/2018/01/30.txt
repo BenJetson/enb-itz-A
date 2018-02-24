@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-23T20:03:01-05:00
+
+====== Tuesday, Jan 30, 2018 ======
+AUTHOR: @author_UNKNOWN
+
+===== Summary =====
+
+* Codebase updated!
+* Added handy robot settings file.
+
+===== Journal =====
+
+Today, I (Ben) worked on adding a settings file to make reconfiguring the robot easier. By doing this, the code reads much more like plain English, with common-sense variable names.
+
+This will save us a lot of time and make it easier for non-programmers to make trivial changes to how the robot functions without having to understand how the program works internally. For now, there are only a few settings. The INV_DRV settings allow inverting axes on the controller to match driver preferences. The KS_DEFAULT setting controls whether or not the controller is enabled when the robot is first put in driver control mode. This is useful for preventing the controller from being bumped on the table during practices, but is usually disabled at tournaments for easy access.
+
+// code sheets for this one probably say either "feb" or "fb2"
+//  but they DEFINITELY ARE NOT the ones that say "fb17" — those are for later
+
+// insert main.c
+
+// insert control.c
+
+// insert settings.h
